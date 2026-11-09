@@ -80,6 +80,20 @@ MD5sum: 6621ee2bf617ddb0a0262f69b3334ec6
 SHA1: 80e8b8d5a6b4e4a2e3583054b0d9aecb0f9d5c52
 SHA256: ef6f35fb29857795ba11b4c7a795eab7cf7febc2b13c670712750f1395a082ac
 
+Package: git-cliff
+Architecture: aarch64
+Installed-Size: 11800
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.14.2-2
+Homepage: https://git-cliff.org
+Depends: libgit2, zlib
+Description: A highly customizable changelog generator that follows Conventional Commit specifications
+Filename: ./git-cliff_2.14.2-2_aarch64.deb
+Size: 3194788
+MD5sum: 42d8fc9d3707ca3b42c316aa2f8374a1
+SHA1: 9f788a3384a6ec8219d5a397a6aedcb05838d31a
+SHA256: 5dcc1552b6fded419cf9ba33e875eb62a2941e1fb5e8baf5b0d3229a7d71cc86
+
 Package: hledger-ui
 Architecture: aarch64
 Installed-Size: 51776
