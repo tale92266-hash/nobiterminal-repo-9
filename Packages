@@ -1,0 +1,401 @@
+Package: chicken-static
+Architecture: aarch64
+Installed-Size: 8712
+Maintainer: @termux
+Version: 6.1.0-1
+Homepage: https://www.call-cc.org
+Depends: chicken (= 6.1.0-1)
+Description: Static libraries for chicken
+Filename: ./chicken-static_6.1.0-1_aarch64.deb
+Size: 1137192
+MD5sum: 546a91157d81f5c0ab90e8d6b8a9147a
+SHA1: b4db586dba2d7d508ba5d35de30f69a7307ee712
+SHA256: 41cbe237ab3002315ca0ce13bd99c6918913fee3896c68a8b4393847d8c309cf
+
+Package: chicken
+Architecture: aarch64
+Installed-Size: 11124
+Maintainer: @termux
+Version: 6.1.0-1
+Homepage: https://www.call-cc.org
+Description: A feature rich Scheme compiler and interpreter
+Filename: ./chicken_6.1.0-1_aarch64.deb
+Size: 2004776
+MD5sum: cc8e299225a079cd7dbb6796facda01f
+SHA1: 4ea4dfc76fa32f4e0d0c0e7675138dd2f0e75a66
+SHA256: 968027396b228e196a3fb4d9968d6346cb0458a76e7fdf152db1bc973a1d1cb6
+
+Package: emscripten-binaryen
+Architecture: aarch64
+Installed-Size: 20088
+Maintainer: @termux
+Version: 7.0.0-1
+Homepage: https://emscripten.org
+Depends: libc++
+Description: Emscripten-compatible Binaryen
+Filename: ./emscripten-binaryen_7.0.0-1_aarch64.deb
+Size: 3830208
+MD5sum: 5b09813f5902d2fe915600cb2a25f710
+SHA1: f395291ef894b297f4e792a7fe73ff189f253d73
+SHA256: da8d117c20a68cf0c9025102a76ed69eddb535a86be74383283e5b21c326b918
+
+Package: emscripten-llvm
+Architecture: aarch64
+Installed-Size: 179320
+Maintainer: @termux
+Version: 7.0.0-1
+Homepage: https://emscripten.org
+Depends: libc++
+Description: Emscripten-compatible LLVM
+Filename: ./emscripten-llvm_7.0.0-1_aarch64.deb
+Size: 37693044
+MD5sum: ddf94ec0501aaa92cec8d39e2196b45e
+SHA1: 17bf1b187394b6fec689b5b791d417a194c73a2b
+SHA256: 93ecb8beefbdef9c8978b165210129fad44d4115bf5afd94a4e62d13410aa4ee
+
+Package: emscripten-tests-third-party
+Architecture: all
+Installed-Size: 83492
+Maintainer: @termux
+Version: 7.0.0-1
+Homepage: https://emscripten.org
+Description: Emscripten third party test suite files
+Filename: ./emscripten-tests-third-party_7.0.0-1_all.deb
+Size: 9614576
+MD5sum: 4484c20df6e3b4dd07414c4743a65ef2
+SHA1: 7edd84030e0d5c0786e8d2970b1ecd23eef3664b
+SHA256: 6f59f597de9144e5b5788fa6de8c865e163c51337ac81838cb9fbf4e6a8a0cae
+
+Package: emscripten
+Architecture: all
+Installed-Size: 96888
+Maintainer: @termux
+Version: 7.0.0-1
+Homepage: https://emscripten.org
+Depends: nodejs-lts | nodejs, python, emscripten-binaryen, emscripten-llvm
+Description: Emscripten: An LLVM-to-WebAssembly Compiler
+Filename: ./emscripten_7.0.0-1_all.deb
+Size: 15340412
+MD5sum: 6621ee2bf617ddb0a0262f69b3334ec6
+SHA1: 80e8b8d5a6b4e4a2e3583054b0d9aecb0f9d5c52
+SHA256: ef6f35fb29857795ba11b4c7a795eab7cf7febc2b13c670712750f1395a082ac
+
+Package: hledger-ui
+Architecture: aarch64
+Installed-Size: 51776
+Maintainer: Andriy Mykhaylyk <erp.lsf@gmail.com>
+Version: 1.52.4-1
+Homepage: https://hledger.org/
+Depends: libandroid-posix-semaphore, libandroid-utimes, libffi, libiconv, libgmp, zlib, ncurses, asciinema
+Description: hledger-ui - terminal interface (TUI) for hledger, a robust, friendly plain text accounting app.
+Filename: ./hledger-ui_1.52.4-1_aarch64.deb
+Size: 6434104
+MD5sum: 9403f25beb3319663e1fa7169853fcb8
+SHA1: d1cc2ccec1e22acfe58b7adf629ea66320db7f04
+SHA256: 179092b0ef23d6d013cbb4d41e37496e115ff198a9dded039bbcc08aff4e854e
+
+Package: hledger
+Architecture: aarch64
+Installed-Size: 69404
+Maintainer: Andriy Mykhaylyk <erp.lsf@gmail.com>
+Version: 1.52.4-1
+Homepage: https://hledger.org/
+Depends: asciinema, libandroid-posix-semaphore, libandroid-utimes, libffi, libgmp, libiconv, ncurses, zlib
+Description: Robust, friendly, fast plain text accounting software. (CLI only)
+Filename: ./hledger_1.52.4-1_aarch64.deb
+Size: 9056528
+MD5sum: 0abfd7cc3d555cb37c2e128df95a87c2
+SHA1: 2edbc0e32ab26c62d32627cdc4b63d4c2a5f33c3
+SHA256: de31b19250d268b5b5090a4854ce2e2f0d39a7eb55a07b1a97a33a95237602d9
+
+Package: libblosc2
+Architecture: aarch64
+Installed-Size: 1072
+Maintainer: @termux
+Version: 3.6.0-1
+Homepage: https://www.blosc.org
+Depends: liblz4, zlib, zstd
+Description: A blocking, shuffling and loss-less compression library
+Filename: ./libblosc2_3.6.0-1_aarch64.deb
+Size: 293892
+MD5sum: 15db0dcff6282ac5d191e62d9ceb0074
+SHA1: ed453739d6e0236801c708a7d3a678a6e7f588c9
+SHA256: 49773e63ef637e66f88e4de25d8df9c58e062193e39fe7de20aa0e09a0de6848
+
+Package: libexttextcat-static
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: @termux
+Version: 3.4.9-1
+Homepage: https://wiki.documentfoundation.org/Libexttextcat
+Depends: libexttextcat (= 3.4.9-1)
+Description: Static libraries for libexttextcat
+Filename: ./libexttextcat-static_3.4.9-1_aarch64.deb
+Size: 7940
+MD5sum: 73aac4b5c9e3dadcd89be5cd588177f9
+SHA1: 0720d88f1339d96f625ba661f237b3689849ef58
+SHA256: 4cb83e38a3ec818461432a8a8ef2c673dd8a19943a487056d8f7cd6495e88823
+
+Package: libexttextcat
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: @termux
+Version: 3.4.9-1
+Homepage: https://wiki.documentfoundation.org/Libexttextcat
+Description: N-Gram-Based Text Categorization library primarily intended for language guessing
+Filename: ./libexttextcat_3.4.9-1_aarch64.deb
+Size: 14612
+MD5sum: 435c36cb699f41a79826598f5e25fcb7
+SHA1: 1fa390f67f4a80e724ea916e44e9521de5f5566a
+SHA256: 9dcb4cd3dff62514e14c170c01e0828d0b7b87379801a2be3b9de321555facc0
+
+Package: libstemmer-static
+Architecture: aarch64
+Installed-Size: 1044
+Maintainer: @termux
+Version: 3.2.0-1
+Homepage: https://snowballstem.org/
+Depends: libstemmer (= 3.2.0-1)
+Description: Static libraries for libstemmer
+Filename: ./libstemmer-static_3.2.0-1_aarch64.deb
+Size: 133536
+MD5sum: db85e52f4f2684825855be2f64cb230a
+SHA1: 77666f9c79bbf6d5b9c607231673b44516b372b6
+SHA256: 5cbb6a8affd09ab9274f9e6b8d9164fd2655b12377c61b751b8e818a9d609c08
+
+Package: libstemmer
+Architecture: aarch64
+Installed-Size: 696
+Maintainer: @termux
+Version: 3.2.0-1
+Homepage: https://snowballstem.org/
+Description: Snowball compiler and stemming algorithms
+Filename: ./libstemmer_3.2.0-1_aarch64.deb
+Size: 108664
+MD5sum: d34318a8857fb54095e492799aebaf44
+SHA1: 8f8ab3cf9884d8378bebcbb1e390b3d0db8a2795
+SHA256: d97e8c2f6638333c5210b188b4c961f1ffc32540cdc8f8515dd85134928dd1ca
+
+Package: luajit-static
+Architecture: aarch64
+Installed-Size: 696
+Maintainer: @termux
+Version: 1:2.1.1794214635+gc4b1e2f-1
+Homepage: https://luajit.org/
+Depends: luajit (= 1:2.1.1794214635+gc4b1e2f-1)
+Description: Static libraries for luajit
+Filename: ./luajit-static_1:2.1.1794214635+gc4b1e2f-1_aarch64.deb
+Size: 225912
+MD5sum: 01164c257fb21bc5968b45af9edac5db
+SHA1: fb2e232e7c4c845b7a613057dc993f74c9b62200
+SHA256: 613e42e2371d789a99948e8015c3fd33ecbb8578aef289cf5d63d64d7b8aa78a
+
+Package: luajit
+Architecture: aarch64
+Installed-Size: 1356
+Maintainer: @termux
+Version: 1:2.1.1794214635+gc4b1e2f-1
+Homepage: https://luajit.org/
+Breaks: libluajit-dev, libluajit
+Replaces: libluajit-dev, libluajit
+Description: Just-In-Time Compiler for Lua
+Filename: ./luajit_1:2.1.1794214635+gc4b1e2f-1_aarch64.deb
+Size: 293936
+MD5sum: 01356e2b362b9757b70492ab910d9774
+SHA1: 47c49487982211d441d97cd4503e57c6ec40138a
+SHA256: 1f3d28fbf61067dc75e8a8ad0522c28ee778c7f64b2b3f829348786725a0da0d
+
+Package: mise
+Architecture: aarch64
+Installed-Size: 187836
+Maintainer: @termux
+Version: 2026.11.5-1
+Homepage: https://mise.jdx.dev/
+Depends: bzip2, openssl
+Description: dev tools, env vars, task runner
+Filename: ./mise_2026.11.5-1_aarch64.deb
+Size: 41585720
+MD5sum: d2cc8ba1b8c2853912861f2cf48d04f3
+SHA1: b780948157c6a6a2b3309392c17422521028cae9
+SHA256: 8a64a960fab9391ebebb35ad42a2d0f1d060338e3d82e96b07501dedb413ec53
+
+Package: mycli
+Architecture: aarch64
+Installed-Size: 2724
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.30.3-1
+Homepage: https://mycli.net
+Depends: python, python-pip, python-cryptography, python-pycryptodomex
+Recommends: fzf
+Description: CLI for MySQL/MariaDB with auto-completion and syntax highlighting
+Filename: ./mycli_2.30.3-1_aarch64.deb
+Size: 323712
+MD5sum: 3685ffa4f95fcc9fd1b067d0b03cae44
+SHA1: c4ddcfa5f2be2d801ec9876be2ad873c03884ecc
+SHA256: 37b2b9aa176e8bc6cf1062a0d96e0aaa761e67d4c29b12c92af56aa2f15db5b1
+
+Package: oxfmt
+Architecture: aarch64
+Installed-Size: 6924
+Maintainer: @termux
+Version: 1.93.0-1
+Homepage: https://oxc.rs/
+Description: Oxc JavaScript formatter
+Filename: ./oxfmt_1.93.0-1_aarch64.deb
+Size: 2045248
+MD5sum: 6f9ef7d353c58c978174ff3c7fdf6ba9
+SHA1: 03d528aecf4149ea2728e0c2ff15ca9ed9f0486d
+SHA256: 198337c6afdb346cdb9f1102a6fd43e36ad6d8f85689275f7777a18239f4080b
+
+Package: oxlint
+Architecture: aarch64
+Installed-Size: 14236
+Maintainer: @termux
+Version: 1.93.0-1
+Homepage: https://oxc.rs/
+Description: Oxc JavaScript linter
+Filename: ./oxlint_1.93.0-1_aarch64.deb
+Size: 4058252
+MD5sum: 5f278e609f9e73b3d2445a8ed9c314b4
+SHA1: a69050325253f38047af1205c101cd11e578876e
+SHA256: b8b99d8a412bda9cb5423880601e4f532c65668e98ea628729cca10a8153fa36
+
+Package: rolldown
+Architecture: aarch64
+Installed-Size: 172432
+Maintainer: @termux
+Version: 1.3.1-1
+Homepage: https://rolldown.rs/
+Depends: nodejs | nodejs-lts, yuku
+Description: Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API
+Filename: ./rolldown_1.3.1-1_aarch64.deb
+Size: 25064112
+MD5sum: 4968d17c46c2f174a9c33444cd5455b2
+SHA1: dde71a439ef2a78021dbb27733f18a64d5bd8164
+SHA256: 046b63fb1b4d98f713cf7c9d08086f3531a6703f782bec0a7fc7048223b7f8e5
+
+Package: rust-analyzer
+Architecture: aarch64
+Installed-Size: 35660
+Maintainer: @termux
+Version: 20261109-1
+Homepage: https://rust-analyzer.github.io/
+Depends: rust-src
+Description: A Rust compiler front-end for IDEs
+Filename: ./rust-analyzer_20261109-1_aarch64.deb
+Size: 8166200
+MD5sum: e53fb0d13507a7bacc94061332512148
+SHA1: 8ff6470f184d32cc19cb1e074fac27a3c7006a8d
+SHA256: d28393b7f89be97fdec4b5664b65eaa6a936fbdfa7097419f7c513a2dae27953
+
+Package: stemwords
+Architecture: aarch64
+Installed-Size: 676
+Maintainer: @termux
+Version: 3.2.0-1
+Homepage: https://snowballstem.org/
+Description: A command-line tool which uses libstemmer
+Filename: ./stemwords_3.2.0-1_aarch64.deb
+Size: 108104
+MD5sum: 560792ca8d1ec1c105e7f06194d77e5a
+SHA1: 8cc0be4cab927da50c0af03dc701026ebb2fe44a
+SHA256: e13c3a9442f192c41131a2adf783118064eb2141f33da1548c041b643f050d1d
+
+Package: topgrade
+Architecture: aarch64
+Installed-Size: 7272
+Maintainer: @termux
+Version: 17.16.0-1
+Homepage: https://github.com/topgrade-rs/topgrade/
+Description: Upgrade all the things
+Filename: ./topgrade_17.16.0-1_aarch64.deb
+Size: 2022808
+MD5sum: 3822beb420a246cc5ddb88ba06b091ce
+SHA1: 6ec43307d5ccfbacdaff0d12b8f807011dc03180
+SHA256: 2f8d2cee3f6f915d655058ccbb6a2c7113bbdea66eefcd0e93647210d9be9426
+
+Package: weechat-lua-plugin
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: @termux
+Version: 4.10.3-1
+Homepage: https://weechat.org/
+Depends: lua53, weechat (= 4.10.3-1)
+Description: WeeChat Lua Plugin
+Filename: ./weechat-lua-plugin_4.10.3-1_aarch64.deb
+Size: 40176
+MD5sum: 4d5a5f29b4d604f47f9a7c84f127f56c
+SHA1: 34a5977594dafee5cff512362ee1eef05812407a
+SHA256: 6a24bd865bb3e31ca559cee8f575486585f78e058b6d11716829f4a3c1e88894
+
+Package: weechat-perl-plugin
+Architecture: aarch64
+Installed-Size: 368
+Maintainer: @termux
+Version: 4.10.3-1
+Homepage: https://weechat.org/
+Depends: perl, weechat (= 4.10.3-1)
+Description: WeeChat Perl Plugin
+Filename: ./weechat-perl-plugin_4.10.3-1_aarch64.deb
+Size: 61664
+MD5sum: ed1ac15f80d6a53ec815b9d6de8261cd
+SHA1: ea5f1be49d3ffbca9652430fa0faa92fdfb576b4
+SHA256: fe0caacbf16e00a2d881e9e1e3a0bcefef8e985c85a2eec447113688d1f716c1
+
+Package: weechat-python-plugin
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: @termux
+Version: 4.10.3-1
+Homepage: https://weechat.org/
+Depends: python, weechat (= 4.10.3-1)
+Description: WeeChat Python3 Plugin
+Filename: ./weechat-python-plugin_4.10.3-1_aarch64.deb
+Size: 43564
+MD5sum: 97abb63069e1461908f85427b0d79ff0
+SHA1: c0750cf9e53db5889e6d7859412d420d632f7d51
+SHA256: 373d59ca3a2bb5378204fa3c8a367c8e32aec1cc74fa13fcbd7318aad83d0a42
+
+Package: weechat-ruby-plugin
+Architecture: aarch64
+Installed-Size: 260
+Maintainer: @termux
+Version: 4.10.3-1
+Homepage: https://weechat.org/
+Depends: ruby, weechat (= 4.10.3-1)
+Description: WeeChat Ruby Plugin
+Filename: ./weechat-ruby-plugin_4.10.3-1_aarch64.deb
+Size: 46544
+MD5sum: 1692ca1afaad611d3e3f25fa3d8cbb55
+SHA1: ef11808a1c17c7a70ec3baaf1760ae615aaa85eb
+SHA256: cf619d4b68f4b6a5902d47ca06b70c519fcd7e0f2fdba734d4183b09385dd296
+
+Package: weechat
+Architecture: aarch64
+Installed-Size: 3036
+Maintainer: @termux
+Version: 4.10.3-1
+Homepage: https://weechat.org/
+Breaks: weechat-dev
+Depends: libandroid-support, libcurl, libgcrypt, libgnutls, libiconv, ncurses, zlib, zstd
+Replaces: weechat-dev
+Description: Fast, light and extensible IRC chat client
+Filename: ./weechat_4.10.3-1_aarch64.deb
+Size: 805580
+MD5sum: c8a7dfc142eed1f6dbb8b6a6cdd9b361
+SHA1: 1b08ff298ec12d3c7ee4bb929472b2dc79deca9e
+SHA256: 4435e92c15f25e321bad803bc20798754d5f1ead6beb2397d14b533b31c3b99b
+
+Package: yq
+Architecture: aarch64
+Installed-Size: 15352
+Maintainer: @termux
+Version: 4.54.3-1
+Homepage: https://mikefarah.gitbook.io/yq/
+Replaces: xpup
+Description: A lightweight and portable command-line YAML, JSON and XML processor
+Filename: ./yq_4.54.3-1_aarch64.deb
+Size: 4200100
+MD5sum: 00d49a1100c23ae8eaeaba0ae9b0fd22
+SHA1: d8bc30575833fd924c9225eeacbe8733099d7a83
+SHA256: 426693376a46c356eaa037bb64ebb416cc73f4083c49999f969cf974962b5072
