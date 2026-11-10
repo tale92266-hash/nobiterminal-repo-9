@@ -1,3 +1,17 @@
+Package: arturo
+Architecture: aarch64
+Installed-Size: 5388
+Maintainer: Komo @mbekkomo
+Version: 0.10.0-3
+Homepage: https://arturo-lang.io
+Depends: libgmp, libmpfr, libandroid-glob, libsqlite, openssl, pcre
+Description: Simple, expressive & portable programming language for efficient scripting
+Filename: ./arturo_0.10.0-3_aarch64.deb
+Size: 1288780
+MD5sum: 4973a7a4e203ae907d4669705653fd4e
+SHA1: 657367660900089ff3752509ed293021b7ceb2d7
+SHA256: 0cc68a8a2af682aeb01af262678e1a94c9b6cd3d12437c09d640741e018e6f2c
+
 Package: chicken-static
 Architecture: aarch64
 Installed-Size: 8712
