@@ -12,6 +12,48 @@ MD5sum: 4973a7a4e203ae907d4669705653fd4e
 SHA1: 657367660900089ff3752509ed293021b7ceb2d7
 SHA256: 0cc68a8a2af682aeb01af262678e1a94c9b6cd3d12437c09d640741e018e6f2c
 
+Package: aspnetcore-runtime-10.0
+Architecture: aarch64
+Installed-Size: 11128
+Maintainer: @truboxl
+Version: 10.0.15-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-10.0
+Description: ASP.NET Core 10.0 Runtime
+Filename: ./aspnetcore-runtime-10.0_10.0.15-1_aarch64.deb
+Size: 2900168
+MD5sum: d670548b7cc410e69de369c586cce2c6
+SHA1: fa06f9f7309e0588562e6d5015c17d3656b67f34
+SHA256: 54adde0b8a0917f80da99e26d6a0894046d9a31bc310be3c37ed0c6217a450d2
+
+Package: aspnetcore-runtime-dbg-10.0
+Architecture: aarch64
+Installed-Size: 5860
+Maintainer: @truboxl
+Version: 10.0.15-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-10.0
+Description: ASP.NET Core 10.0 Runtime Managed Debug Symbols
+Filename: ./aspnetcore-runtime-dbg-10.0_10.0.15-1_aarch64.deb
+Size: 1559580
+MD5sum: e4bd2de41b3c01bf41813fe1ddc8400b
+SHA1: 17b0de5aed490444a0808a145289b63458654552
+SHA256: 80467655e4a6a8cc76b247a4dd5ce7eca7817d10d0d046a773b3299a8ef358f7
+
+Package: aspnetcore-targeting-pack-10.0
+Architecture: aarch64
+Installed-Size: 47264
+Maintainer: @truboxl
+Version: 10.0.15-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: ASP.NET Core 10.0 Targeting Pack
+Filename: ./aspnetcore-targeting-pack-10.0_10.0.15-1_aarch64.deb
+Size: 3416556
+MD5sum: de4512bd906a057bc740653b5d967726
+SHA1: 048f643a81f78617adab1a0957741c879025f3ba
+SHA256: 0cc9fc7b00dc2624d33d53d6b71f438e77592a7ebc79762149b31084540946c6
+
 Package: assimp
 Architecture: aarch64
 Installed-Size: 11324
@@ -154,6 +196,133 @@ MD5sum: ec78bc4f3ba6a5e8313b689f1b4a68a1
 SHA1: 28b7f3a04beb162806f7cc8c47bdbc701acc53f1
 SHA256: 7d2a543ea798be0e8fb30653a1887d60e803c80f84b6c90705729e7d5c5dba39
 
+Package: dotnet-apphost-pack-10.0
+Architecture: aarch64
+Installed-Size: 2016
+Maintainer: @truboxl
+Version: 10.0.15-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0 Targeting Pack
+Filename: ./dotnet-apphost-pack-10.0_10.0.15-1_aarch64.deb
+Size: 277496
+MD5sum: 7911441f063a6b40e258174261767699
+SHA1: 54d36a13613857e7f27330ea935afc54e9cca0f5
+SHA256: 423669c7e72f0ec08570879bae8000c6e48da7521ceb10c8cba5bf7d3c04c724
+
+Package: dotnet-host-10.0
+Architecture: aarch64
+Installed-Size: 556
+Maintainer: @truboxl
+Version: 10.0.15-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Conflicts: dotnet-host-8.0, dotnet-host-9.0
+Description: .NET 10.0 Host
+Filename: ./dotnet-host-10.0_10.0.15-1_aarch64.deb
+Size: 182432
+MD5sum: 901824f3d39ab0531c2ce80d6e155fd8
+SHA1: 1211c138db9e09604a16d33734584fd3e1c3bdec
+SHA256: e0c75c99a2b88c080c6b84f0ae539c7604a9bf067fe08b88e889bad3a9e4ce6f
+
+Package: dotnet-hostfxr-10.0
+Architecture: aarch64
+Installed-Size: 480
+Maintainer: @truboxl
+Version: 10.0.15-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 10.0 Host Resolver
+Filename: ./dotnet-hostfxr-10.0_10.0.15-1_aarch64.deb
+Size: 144868
+MD5sum: 536a2f59aa491353fc9acd4956f3a4a5
+SHA1: 0b1a8358130b23edfedbeb9c0e662162b274bba0
+SHA256: c90ad339c9f0852d7713eca5130119c6eafd6fb68878aade82b41d1f384142de
+
+Package: dotnet-runtime-10.0
+Architecture: aarch64
+Installed-Size: 72016
+Maintainer: @truboxl
+Version: 10.0.15-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-hostfxr-10.0, libicu, openssl, zlib
+Description: .NET 10.0 Runtime
+Filename: ./dotnet-runtime-10.0_10.0.15-1_aarch64.deb
+Size: 14519964
+MD5sum: 66e1b6824ac809eda4d76557498c4f3e
+SHA1: 8d52fbeb84dfdad5bc2089fd5a61af5138ee2e74
+SHA256: f76f20f01dcde47fee79cb2af2d4d0cec7f8a97dd78588069f5374fa576557a3
+
+Package: dotnet-runtime-dbg-10.0
+Architecture: aarch64
+Installed-Size: 8832
+Maintainer: @truboxl
+Version: 10.0.15-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-10.0
+Description: .NET 10.0 Runtime Managed Debug Symbols
+Filename: ./dotnet-runtime-dbg-10.0_10.0.15-1_aarch64.deb
+Size: 2588180
+MD5sum: 949b414ad090eac4682f278e87a92c03
+SHA1: 702b2a09ea34852502b61abbb9ea767735c2dd31
+SHA256: 1860d859080fec136597036d7ca0bdf8fcf5737fe524b79b7c64bbbca1a6391b
+
+Package: dotnet-sdk-dbg-10.0
+Architecture: aarch64
+Installed-Size: 16472
+Maintainer: @truboxl
+Version: 10.0.15-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-sdk-10.0
+Description: .NET 10.0 SDK Managed Debug Symbols
+Filename: ./dotnet-sdk-dbg-10.0_10.0.15-1_aarch64.deb
+Size: 2850216
+MD5sum: cfcccb4cdd1fbcb2fa803f498bab4e47
+SHA1: 298a067370c5ca8eddd79c2512b87db774c6fa80
+SHA256: 7552906e7209af3c32f4755c631a2ca559dfa16f716749d073d9afb12ae5da8a
+
+Package: dotnet-targeting-pack-10.0
+Architecture: aarch64
+Installed-Size: 40552
+Maintainer: @truboxl
+Version: 10.0.15-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 10.0 Targeting Pack
+Filename: ./dotnet-targeting-pack-10.0_10.0.15-1_aarch64.deb
+Size: 2981808
+MD5sum: 3cb8c2ba2f1d67fe5cce8c2c2a96ae97
+SHA1: 78faa88370255792552459a87f7295e292af54c8
+SHA256: 41e461a4dc00d859cb1f16d8f217440da37431eb588b241a75cb6dbdb99a8281
+
+Package: dotnet-templates-10.0
+Architecture: aarch64
+Installed-Size: 10312
+Maintainer: @truboxl
+Version: 10.0.15-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 10.0 Templates
+Filename: ./dotnet-templates-10.0_10.0.15-1_aarch64.deb
+Size: 2931440
+MD5sum: 5ff462692e8a7ad9058add48f65c0d90
+SHA1: c4a8971dcbf731f7a2c310ba08862b9a91edff4b
+SHA256: 8e64b48c65372c019905b06a8b31b49de2170070519c8ccb3c15a873cbc944b0
+
+Package: dotnet10.0
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @truboxl
+Version: 10.0.15-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-10.0, dotnet-host, dotnet-runtime-10.0
+Conflicts: dotnet8.0, dotnet9.0
+Suggests: dotnet-sdk-10.0
+Description: .NET 10.0
+Filename: ./dotnet10.0_10.0.15-1_aarch64.deb
+Size: 1696
+MD5sum: 1cfda492d7133927eab331eae0a26905
+SHA1: a32bd3857a9b8497bc495d0166fdf06d9869ab14
+SHA256: f3dae57125f4efdaa6c6219b4966795c4822485fa90f5f8eedbbd464ffc75a5e
+
 Package: dua
 Architecture: aarch64
 Installed-Size: 4584
@@ -277,6 +446,64 @@ MD5sum: 42d8fc9d3707ca3b42c316aa2f8374a1
 SHA1: 9f788a3384a6ec8219d5a397a6aedcb05838d31a
 SHA256: 5dcc1552b6fded419cf9ba33e875eb62a2941e1fb5e8baf5b0d3229a7d71cc86
 
+Package: git-gitk
+Architecture: aarch64
+Installed-Size: 988
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.56.1-1
+Homepage: https://git-scm.com/
+Depends: tk, git (= 2.56.1-1)
+Description: Git repository browser
+Filename: ./git-gitk_2.56.1-1_aarch64.deb
+Size: 145492
+MD5sum: 724227961663b94ea6fe551e8cdf4f51
+SHA1: b4d36fa4864aa052645cd33da8676604db0a72e8
+SHA256: 52327dccaa20f73f01daf829e7fe4f8f3f8b5dbbe3f2f9d20c4367b76f67f13f
+
+Package: git-gui
+Architecture: aarch64
+Installed-Size: 1564
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.56.1-1
+Homepage: https://git-scm.com/
+Depends: tk, git (= 2.56.1-1)
+Description: A graphical interface to Git
+Filename: ./git-gui_2.56.1-1_aarch64.deb
+Size: 215548
+MD5sum: 45e18dd1e79a64de3292a2152c6f172a
+SHA1: 42022189fbf83fd486c06fe2733daedbba182948
+SHA256: 85dbd243eebd56f8c923aeaeafdf36e8abc34399248805d20f55f716eb3eac8e
+
+Package: git-svn
+Architecture: all
+Installed-Size: 320
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.56.1-1
+Homepage: https://git-scm.com/
+Depends: subversion-perl, git (= 2.56.1-1)
+Description: Convert between Git and Subversion repositories
+Filename: ./git-svn_2.56.1-1_all.deb
+Size: 75556
+MD5sum: df2198a1d719a73ae6d6618dbd6ae52e
+SHA1: 159d6c7df05bb77bb496571c400e851d918e060a
+SHA256: ad2540b63a4fba235008278c8c22ba10c95f6ef45ba3d262ea3670e69befd235
+
+Package: git
+Architecture: aarch64
+Installed-Size: 25088
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.56.1-1
+Homepage: https://git-scm.com/
+Depends: libcurl, libexpat, libiconv, less, openssl, pcre2, zlib
+Recommends: openssh
+Suggests: perl
+Description: Fast, scalable, distributed revision control system
+Filename: ./git_2.56.1-1_aarch64.deb
+Size: 4574532
+MD5sum: dfca7467d3384f444d3af12301f2a7b3
+SHA1: 8bfcdf47d49ffe8537966d742f285a55de767c97
+SHA256: 4f6ecc052d4066e5c331fde663eac6937c20656ee425867853d8cf299e8fd501
+
 Package: glab-cli
 Architecture: aarch64
 Installed-Size: 52108
@@ -289,6 +516,32 @@ Size: 12401368
 MD5sum: a93aa9976ad1670d5ea4d87a6dc1bab0
 SHA1: 319b627b6f73c861496630101ca24755f63c53c3
 SHA256: 868c4bce72ef3ef35720a1a4e60711808a473a253b749d4a9c5e2fe0946ed0ed
+
+Package: glab-cli
+Architecture: aarch64
+Installed-Size: 57140
+Maintainer: @termux
+Version: 1.130.0-1
+Homepage: https://gitlab.com/gitlab-org/cli
+Description: A GitLab CLI tool bringing GitLab to your command line
+Filename: ./glab-cli_1.130.0-1_aarch64.deb
+Size: 13404668
+MD5sum: c5e18043e423caafbdeb83ccde2b6b55
+SHA1: 4ce1aa0706bfac02413246127f8eae56bade0e26
+SHA256: b2b63828328ac66ca72e0f12fac6b88792a8d1a567a20848546a6800ab559f3b
+
+Package: goose
+Architecture: aarch64
+Installed-Size: 45180
+Maintainer: @termux
+Version: 3.30.0-1
+Homepage: https://pressly.github.io/goose
+Description: A database migration tool. Supports SQL migrations and Go functions.
+Filename: ./goose_3.30.0-1_aarch64.deb
+Size: 9899708
+MD5sum: 7dd1aa3de7f0943162c86510177ad800
+SHA1: 3e21422332465df98b2bf0c3d9ecc7ae43cc58e6
+SHA256: d726deab33b10d4e6efd435d17bf195862d3134ffc6005b7b16a4a0efd446125
 
 Package: hk
 Architecture: aarch64
@@ -360,6 +613,21 @@ Size: 474516
 MD5sum: 2f8a923f52ee21bc4d34f3fa50a32e65
 SHA1: 72b1ffa9de4c94fc817ee507d0a2b6223c4e9735
 SHA256: f44227a3ead4e015822fadc45ef97f57a1c2399ee47633b48fd87b93a6643809
+
+Package: lesspipe
+Architecture: all
+Installed-Size: 156
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.30-1
+Homepage: https://lesspipe.org/
+Depends: file, less
+Suggests: 7zip, imagemagick, perl, unrar, unzip
+Description: An input filter for the pager less
+Filename: ./lesspipe_2.30-1_all.deb
+Size: 20116
+MD5sum: ebc5e2862b4641db82b1b0bd5208c8bb
+SHA1: f90e5e79815932746b53e89325682ced4570b0b5
+SHA256: e816307be9868aaa50f536675bf37e09fd6b28c14e385fd986d8936b01baeb0e
 
 Package: libblosc2
 Architecture: aarch64
