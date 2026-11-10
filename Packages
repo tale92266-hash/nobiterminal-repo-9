@@ -69,6 +69,20 @@ MD5sum: cc8e299225a079cd7dbb6796facda01f
 SHA1: 4ea4dfc76fa32f4e0d0c0e7675138dd2f0e75a66
 SHA256: 968027396b228e196a3fb4d9968d6346cb0458a76e7fdf152db1bc973a1d1cb6
 
+Package: composer
+Architecture: all
+Installed-Size: 3772
+Maintainer: @termux
+Version: 2.11.2-1
+Homepage: https://getcomposer.org/
+Depends: php
+Description: Dependency Manager for PHP
+Filename: ./composer_2.11.2-1_all.deb
+Size: 623052
+MD5sum: 1a3ff26dbefe2a60e87ce3ba00fd1e1f
+SHA1: c6bea452dfca1eca0e51a25dacb5132f95bff2e7
+SHA256: 35e8626aad8e3be1e16e3b3462af5a857379186f1da162ff1b4f1f3087b39f65
+
 Package: cookcli
 Architecture: aarch64
 Installed-Size: 25684
@@ -151,6 +165,20 @@ MD5sum: 6621ee2bf617ddb0a0262f69b3334ec6
 SHA1: 80e8b8d5a6b4e4a2e3583054b0d9aecb0f9d5c52
 SHA256: ef6f35fb29857795ba11b4c7a795eab7cf7febc2b13c670712750f1395a082ac
 
+Package: exfatprogs
+Architecture: aarch64
+Installed-Size: 568
+Maintainer: @termux
+Version: 1.4.4-1
+Homepage: https://github.com/exfatprogs/exfatprogs
+Depends: libblkid
+Description: exFAT filesystem userspace utilities
+Filename: ./exfatprogs_1.4.4-1_aarch64.deb
+Size: 92996
+MD5sum: 8077040f1226b6407e9b16db25115992
+SHA1: b5cea179f4892d6728ed909bb83179cd10e9a77a
+SHA256: 167b02bdf4126fdd90455eda422d7fb43a7c4bfd72412612b51a2b1884d6f04b
+
 Package: exiftool
 Architecture: all
 Installed-Size: 18544
@@ -191,6 +219,19 @@ Size: 3194788
 MD5sum: 42d8fc9d3707ca3b42c316aa2f8374a1
 SHA1: 9f788a3384a6ec8219d5a397a6aedcb05838d31a
 SHA256: 5dcc1552b6fded419cf9ba33e875eb62a2941e1fb5e8baf5b0d3229a7d71cc86
+
+Package: glab-cli
+Architecture: aarch64
+Installed-Size: 52108
+Maintainer: @termux
+Version: 1.129.0-1
+Homepage: https://gitlab.com/gitlab-org/cli
+Description: A GitLab CLI tool bringing GitLab to your command line
+Filename: ./glab-cli_1.129.0-1_aarch64.deb
+Size: 12401368
+MD5sum: a93aa9976ad1670d5ea4d87a6dc1bab0
+SHA1: 319b627b6f73c861496630101ca24755f63c53c3
+SHA256: 868c4bce72ef3ef35720a1a4e60711808a473a253b749d4a9c5e2fe0946ed0ed
 
 Package: hk
 Architecture: aarch64
@@ -247,6 +288,21 @@ Size: 3564944
 MD5sum: 24120b3c1c7861c3d9f7a8733cde8daa
 SHA1: 76e47640316dcb1f486101501589b8be5a7c50f3
 SHA256: 415e6d04658cdd7e8f4f696ed25c4e9998391833556f177f4b04bbe19589bf3a
+
+Package: kew
+Architecture: aarch64
+Installed-Size: 1464
+Maintainer: @termux
+Version: 4.4.3-1
+Homepage: https://kewplayer.com
+Depends: chafa, faad2, fftw, glib, libandroid-spawn, libogg, libvorbis, libopus, opusfile, taglib
+Suggests: chroma-visualizer
+Description: Music for the Shell
+Filename: ./kew_4.4.3-1_aarch64.deb
+Size: 474516
+MD5sum: 2f8a923f52ee21bc4d34f3fa50a32e65
+SHA1: 72b1ffa9de4c94fc817ee507d0a2b6223c4e9735
+SHA256: f44227a3ead4e015822fadc45ef97f57a1c2399ee47633b48fd87b93a6643809
 
 Package: libblosc2
 Architecture: aarch64
@@ -388,6 +444,20 @@ Size: 8192824
 MD5sum: 8670ccf09207492faca1d893f6e48ffe
 SHA1: 11747c8dfdd1adbaf9b14645f29f9728a1b9935b
 SHA256: 5442297721b8ef0210af22f0937f96cdce4d3b46238ec24042da3f397ab80c28
+
+Package: mdcat
+Architecture: aarch64
+Installed-Size: 87560
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.20.0-1
+Homepage: https://github.com/BIRSAx2/mdcat
+Depends: libcurl
+Description: Fancy cat for Markdown: syntax highlighting, images, math, and Mermaid diagrams in your terminal
+Filename: ./mdcat_2.20.0-1_aarch64.deb
+Size: 25911612
+MD5sum: 72f722d8c1a409bacd6a3985f0f26667
+SHA1: e0b43e2e608857883b4a0bc9c7cf88e7bc175a58
+SHA256: b4cfe45294443437cc8c93568ee3435724d09f63c8bcb2c01de4f84266d7cd25
 
 Package: mise
 Architecture: aarch64
@@ -588,6 +658,19 @@ MD5sum: 560792ca8d1ec1c105e7f06194d77e5a
 SHA1: 8cc0be4cab927da50c0af03dc701026ebb2fe44a
 SHA256: e13c3a9442f192c41131a2adf783118064eb2141f33da1548c041b643f050d1d
 
+Package: storj-uplink
+Architecture: aarch64
+Installed-Size: 18064
+Maintainer: @termux
+Version: 1.166.3-1
+Homepage: https://github.com/storj/storj
+Description: Storj DCS Uplink CLI
+Filename: ./storj-uplink_1.166.3-1_aarch64.deb
+Size: 4461492
+MD5sum: e938f2d1476e2d7d768265968a7beb1f
+SHA1: 2d3f3c1e8b8c23e9fe8f43fd0eabb9bcd1bf6d97
+SHA256: c67523c563f1aa5eb54f19251707a4039fbb92fc92e071ceaaad31fea1990640
+
 Package: topgrade
 Architecture: aarch64
 Installed-Size: 7272
@@ -655,6 +738,20 @@ MD5sum: 4d5a5f29b4d604f47f9a7c84f127f56c
 SHA1: 34a5977594dafee5cff512362ee1eef05812407a
 SHA256: 6a24bd865bb3e31ca559cee8f575486585f78e058b6d11716829f4a3c1e88894
 
+Package: weechat-lua-plugin
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: @termux
+Version: 4.10.4-1
+Homepage: https://weechat.org/
+Depends: lua53, weechat (= 4.10.4-1)
+Description: WeeChat Lua Plugin
+Filename: ./weechat-lua-plugin_4.10.4-1_aarch64.deb
+Size: 40192
+MD5sum: 97116c5aafa01ee03f19442e0846f0a7
+SHA1: fd42c40399c845819fc32050ca54edfa092e771e
+SHA256: 3210c4ace6786933a22b982966da97c5849628fd830c4ec03c001d08bd355597
+
 Package: weechat-perl-plugin
 Architecture: aarch64
 Installed-Size: 368
@@ -668,6 +765,20 @@ Size: 61664
 MD5sum: ed1ac15f80d6a53ec815b9d6de8261cd
 SHA1: ea5f1be49d3ffbca9652430fa0faa92fdfb576b4
 SHA256: fe0caacbf16e00a2d881e9e1e3a0bcefef8e985c85a2eec447113688d1f716c1
+
+Package: weechat-perl-plugin
+Architecture: aarch64
+Installed-Size: 368
+Maintainer: @termux
+Version: 4.10.4-1
+Homepage: https://weechat.org/
+Depends: perl, weechat (= 4.10.4-1)
+Description: WeeChat Perl Plugin
+Filename: ./weechat-perl-plugin_4.10.4-1_aarch64.deb
+Size: 61604
+MD5sum: ba25054c91f0431066966d0a7df23ab4
+SHA1: 81882a478271654972b84212bb59ab43343192b7
+SHA256: 40e0ea70fb144c53ceade421e859f11cce51f25a2c36309b9e70ca8799190cac
 
 Package: weechat-python-plugin
 Architecture: aarch64
@@ -683,6 +794,20 @@ MD5sum: 97abb63069e1461908f85427b0d79ff0
 SHA1: c0750cf9e53db5889e6d7859412d420d632f7d51
 SHA256: 373d59ca3a2bb5378204fa3c8a367c8e32aec1cc74fa13fcbd7318aad83d0a42
 
+Package: weechat-python-plugin
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: @termux
+Version: 4.10.4-1
+Homepage: https://weechat.org/
+Depends: python, weechat (= 4.10.4-1)
+Description: WeeChat Python3 Plugin
+Filename: ./weechat-python-plugin_4.10.4-1_aarch64.deb
+Size: 43592
+MD5sum: 314ee2c4311df072c72a5696b41fd534
+SHA1: 1ba1c0321002266136ea2258871b8c47bf81f52f
+SHA256: e6bcb4c3ccc95901bd2040fb3acde7abda480f8a01fd4409a58123622db8d46a
+
 Package: weechat-ruby-plugin
 Architecture: aarch64
 Installed-Size: 260
@@ -696,6 +821,20 @@ Size: 46544
 MD5sum: 1692ca1afaad611d3e3f25fa3d8cbb55
 SHA1: ef11808a1c17c7a70ec3baaf1760ae615aaa85eb
 SHA256: cf619d4b68f4b6a5902d47ca06b70c519fcd7e0f2fdba734d4183b09385dd296
+
+Package: weechat-ruby-plugin
+Architecture: aarch64
+Installed-Size: 260
+Maintainer: @termux
+Version: 4.10.4-1
+Homepage: https://weechat.org/
+Depends: ruby, weechat (= 4.10.4-1)
+Description: WeeChat Ruby Plugin
+Filename: ./weechat-ruby-plugin_4.10.4-1_aarch64.deb
+Size: 46580
+MD5sum: 5b304a5177282ccd67890546b73519c9
+SHA1: 166af249d557d502021b6224ff94f21c3d44e304
+SHA256: fb847793453c8e2e313d204fa3d3a248a5f080fe63c47754eb8e86c20dcdcaa7
 
 Package: weechat
 Architecture: aarch64
@@ -713,6 +852,22 @@ MD5sum: c8a7dfc142eed1f6dbb8b6a6cdd9b361
 SHA1: 1b08ff298ec12d3c7ee4bb929472b2dc79deca9e
 SHA256: 4435e92c15f25e321bad803bc20798754d5f1ead6beb2397d14b533b31c3b99b
 
+Package: weechat
+Architecture: aarch64
+Installed-Size: 3036
+Maintainer: @termux
+Version: 4.10.4-1
+Homepage: https://weechat.org/
+Breaks: weechat-dev
+Depends: libandroid-support, libcurl, libgcrypt, libgnutls, libiconv, ncurses, zlib, zstd
+Replaces: weechat-dev
+Description: Fast, light and extensible IRC chat client
+Filename: ./weechat_4.10.4-1_aarch64.deb
+Size: 806128
+MD5sum: 97886afb40f1cd81509f266b6190e38c
+SHA1: 917bcb89603b61732ce0745515e855befca425ea
+SHA256: 9beeedfe3ac0b08ab61c66993ffe9be782ec12fd6aacd1fb3c6f2f1f1b77b569
+
 Package: yq
 Architecture: aarch64
 Installed-Size: 15352
@@ -726,3 +881,17 @@ Size: 4200100
 MD5sum: 00d49a1100c23ae8eaeaba0ae9b0fd22
 SHA1: d8bc30575833fd924c9225eeacbe8733099d7a83
 SHA256: 426693376a46c356eaa037bb64ebb416cc73f4083c49999f969cf974962b5072
+
+Package: z3
+Architecture: aarch64
+Installed-Size: 54460
+Maintainer: @termux
+Version: 5.4.0-1
+Homepage: https://github.com/Z3Prover/z3
+Depends: libc++
+Description: Z3 is a theorem prover from Microsoft Research
+Filename: ./z3_5.4.0-1_aarch64.deb
+Size: 13783548
+MD5sum: 4267d5ee2bc0da613dfb3c1a475e1580
+SHA1: d29008bea2856f8597b6265898c189900efee432
+SHA256: d5e9033c9d4eae650d9ab5cd6f3b3dc3d5c7fcf083b35708baba9628ffca0812
