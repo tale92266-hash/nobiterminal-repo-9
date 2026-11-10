@@ -12,6 +12,22 @@ MD5sum: 4973a7a4e203ae907d4669705653fd4e
 SHA1: 657367660900089ff3752509ed293021b7ceb2d7
 SHA256: 0cc68a8a2af682aeb01af262678e1a94c9b6cd3d12437c09d640741e018e6f2c
 
+Package: assimp
+Architecture: aarch64
+Installed-Size: 11324
+Maintainer: @termux
+Version: 6.0.6-1
+Homepage: https://www.assimp.org/
+Breaks: assimp-dev
+Depends: libc++, zlib
+Replaces: assimp-dev
+Description: Library to import various well-known 3D model formats in an uniform manner
+Filename: ./assimp_6.0.6-1_aarch64.deb
+Size: 2267220
+MD5sum: c6b36ffc3eae53871387fafd7c342587
+SHA1: ac0f6325ed9f3b0bf4d203c29d39fbf8c1299182
+SHA256: 2f325033e3cd4e9745902014b14cde8d22900b07bd9fe04c0ef444b146e9fcb8
+
 Package: chicken-static
 Architecture: aarch64
 Installed-Size: 8712
