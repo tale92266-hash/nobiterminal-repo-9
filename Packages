@@ -28,6 +28,20 @@ MD5sum: c6b36ffc3eae53871387fafd7c342587
 SHA1: ac0f6325ed9f3b0bf4d203c29d39fbf8c1299182
 SHA256: 2f325033e3cd4e9745902014b14cde8d22900b07bd9fe04c0ef444b146e9fcb8
 
+Package: atuin
+Architecture: aarch64
+Installed-Size: 51072
+Maintainer: @termux
+Version: 18.24.6-1
+Homepage: https://atuin.sh/
+Depends: openssl
+Description: Magical shell history
+Filename: ./atuin_18.24.6-1_aarch64.deb
+Size: 12547124
+MD5sum: c9302c87a4559c395925f5eb8484bf97
+SHA1: cd91ae79f5de7d9dddb8a723821406ce49070d3f
+SHA256: 34fb7eb74d285a724de5f75f722f8031b71e9aae51bdb3823c892fc1859b4e73
+
 Package: chicken-static
 Architecture: aarch64
 Installed-Size: 8712
@@ -403,6 +417,37 @@ Size: 323712
 MD5sum: 3685ffa4f95fcc9fd1b067d0b03cae44
 SHA1: c4ddcfa5f2be2d801ec9876be2ad873c03884ecc
 SHA256: 37b2b9aa176e8bc6cf1062a0d96e0aaa761e67d4c29b12c92af56aa2f15db5b1
+
+Package: neovim-nightly
+Architecture: aarch64
+Installed-Size: 33864
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.13.0~dev-2069+g0c4b90023d-1
+Homepage: https://neovim.io/
+Breaks: neovim
+Depends: libandroid-support, libiconv, libmsgpack, libunibilium, libuv, libvterm (>= 1:0.3-0), lua51-lpeg, luajit, luv, tree-sitter, tree-sitter-parsers, utf8proc
+Conflicts: neovim
+Description: Ambitious Vim-fork focused on extensibility and agility (nvim-nightly)
+Filename: ./neovim-nightly_0.13.0~dev-2069+g0c4b90023d-1_aarch64.deb
+Size: 6266644
+MD5sum: dbe503a85393c24400b5db47539824b2
+SHA1: 463f44abaa4743e121d31e5ce2b7da45259873de
+SHA256: d9e6861d577e1fb5bdea1f4943af6ae9f35ba8de61048de3f52223e992a41d83
+
+Package: nushell
+Architecture: aarch64
+Installed-Size: 48740
+Maintainer: @termux
+Version: 0.117.0-1
+Homepage: https://www.nushell.sh
+Depends: openssl
+Recommends: command-not-found, termux-api
+Description: A new type of shell operating on structured data
+Filename: ./nushell_0.117.0-1_aarch64.deb
+Size: 11190944
+MD5sum: a0f14ce7288d2cdc97f2bd17e140e9e9
+SHA1: dd0623c5a4436f31eff8416b1d1e0022a8d7977e
+SHA256: f38630d06f32b95059e8335636ebd166975acf7c20501ff1dd091c6ce3c51835
 
 Package: ollama-backend-vulkan
 Architecture: aarch64
