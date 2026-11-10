@@ -178,6 +178,20 @@ MD5sum: 42d8fc9d3707ca3b42c316aa2f8374a1
 SHA1: 9f788a3384a6ec8219d5a397a6aedcb05838d31a
 SHA256: 5dcc1552b6fded419cf9ba33e875eb62a2941e1fb5e8baf5b0d3229a7d71cc86
 
+Package: hk
+Architecture: aarch64
+Installed-Size: 24608
+Maintainer: @termux
+Version: 2.12.0-1
+Homepage: https://hk.jdx.dev/
+Depends: git, zlib
+Description: A tool for managing git hooks
+Filename: ./hk_2.12.0-1_aarch64.deb
+Size: 6343496
+MD5sum: 23ddfeed0c4cd28227082b8191e250ea
+SHA1: 9a40d863833538836a6cadbae75fbaed365a9354
+SHA256: f6b58e79b0720d519246eac3f3f0ec22a408288ca577edc774fa9dbdfd007267
+
 Package: hledger-ui
 Architecture: aarch64
 Installed-Size: 51776
@@ -455,6 +469,32 @@ Size: 2022808
 MD5sum: 3822beb420a246cc5ddb88ba06b091ce
 SHA1: 6ec43307d5ccfbacdaff0d12b8f807011dc03180
 SHA256: 2f8d2cee3f6f915d655058ccbb6a2c7113bbdea66eefcd0e93647210d9be9426
+
+Package: tree-sitter-sql
+Architecture: aarch64
+Installed-Size: 12324
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.3.12-1
+Homepage: https://github.com/derekstride/tree-sitter-sql
+Description: SQL grammar for tree-sitter
+Filename: ./tree-sitter-sql_0.3.12-1_aarch64.deb
+Size: 422408
+MD5sum: b456b1a60de107c847add375b0a2da15
+SHA1: 7cc3d94c6c97cc418100515bed9247644a00f36a
+SHA256: 350e0bd8b0f84b17589aa9d27d76b474184c079941aa0fbdbc1106fbfd5fa2df
+
+Package: ty
+Architecture: aarch64
+Installed-Size: 29440
+Maintainer: @termux
+Version: 0.0.100-1
+Homepage: https://github.com/astral-sh/ty
+Description: An extremely fast Python type checker and language server, written in Rust
+Filename: ./ty_0.0.100-1_aarch64.deb
+Size: 9493940
+MD5sum: 1db90dc71647935849e3b1afc9fffbb7
+SHA1: 0ee117a84f27acc1659a3f95b08b850505fcdf61
+SHA256: 0c5f19e8266f1deb66be6d8ae757e3d486e88f738820653ec73f5e57c15603eb
 
 Package: weechat-lua-plugin
 Architecture: aarch64
