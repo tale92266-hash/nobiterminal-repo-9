@@ -55,6 +55,33 @@ MD5sum: cc8e299225a079cd7dbb6796facda01f
 SHA1: 4ea4dfc76fa32f4e0d0c0e7675138dd2f0e75a66
 SHA256: 968027396b228e196a3fb4d9968d6346cb0458a76e7fdf152db1bc973a1d1cb6
 
+Package: cookcli
+Architecture: aarch64
+Installed-Size: 25684
+Maintainer: @termux
+Version: 0.41.1-1
+Homepage: https://cooklang.org
+Depends: openssl
+Description: A suite of tools to create shopping lists and maintain food recipes
+Filename: ./cookcli_0.41.1-1_aarch64.deb
+Size: 8898476
+MD5sum: 1367dab2403beb3c4bd4fd129fbc3608
+SHA1: 1076460e2a195df1a0cdc6ffb704e73c8e02ac00
+SHA256: 3ae67edc18b867d577766314cc7776acb3c2ac91d842bd3cb8fe952e6d854033
+
+Package: dua
+Architecture: aarch64
+Installed-Size: 4584
+Maintainer: @termux
+Version: 3.0.1-1
+Homepage: https://github.com/Byron/dua-cli
+Description: View disk space usage and delete unwanted data, fast
+Filename: ./dua_3.0.1-1_aarch64.deb
+Size: 1473876
+MD5sum: 89b35c92b3070dd465c7ed3dab10de5f
+SHA1: 0f39588d293f4a0e5dd54a9fe6b1b249289922cc
+SHA256: e8bd5e891689a69423e711ad0ddaebe8a44b22f0c3920f3dd034766126ebdbb1
+
 Package: emscripten-binaryen
 Architecture: aarch64
 Installed-Size: 20088
@@ -109,6 +136,33 @@ Size: 15340412
 MD5sum: 6621ee2bf617ddb0a0262f69b3334ec6
 SHA1: 80e8b8d5a6b4e4a2e3583054b0d9aecb0f9d5c52
 SHA256: ef6f35fb29857795ba11b4c7a795eab7cf7febc2b13c670712750f1395a082ac
+
+Package: exiftool
+Architecture: all
+Installed-Size: 18544
+Maintainer: @termux
+Version: 13.62-1
+Homepage: https://exiftool.org/
+Depends: perl
+Description: Utility for reading, writing and editing meta information in a wide variety of files.
+Filename: ./exiftool_13.62-1_all.deb
+Size: 3917576
+MD5sum: aeef853568132bc3763a328cf778050c
+SHA1: e92404d6824db2abc91eb24bca05e689e046ea55
+SHA256: 6c0c5b0f4063daaa995d8028dd3879ba9dbf567bd72703744c18c68b327a7646
+
+Package: flyctl
+Architecture: aarch64
+Installed-Size: 80016
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 0.5.6-1
+Homepage: https://fly.io
+Description: Command line tools for fly.io services
+Filename: ./flyctl_0.5.6-1_aarch64.deb
+Size: 17507372
+MD5sum: 4021b717ba6560c0b24eb65d589f2f5f
+SHA1: d6f2803c6c9f13d2bb7e4d37a7a70c1fab9655c5
+SHA256: 0083dc50de18adf2373067795bbb15bceec7dad16c430e165883e2e1adf13748
 
 Package: git-cliff
 Architecture: aarch64
