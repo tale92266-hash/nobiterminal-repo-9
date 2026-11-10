@@ -26,6 +26,20 @@ MD5sum: d670548b7cc410e69de369c586cce2c6
 SHA1: fa06f9f7309e0588562e6d5015c17d3656b67f34
 SHA256: 54adde0b8a0917f80da99e26d6a0894046d9a31bc310be3c37ed0c6217a450d2
 
+Package: aspnetcore-runtime-9.0
+Architecture: aarch64
+Installed-Size: 10896
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-9.0
+Description: ASP.NET Core 9.0 Runtime
+Filename: ./aspnetcore-runtime-9.0_9.0.23-1_aarch64.deb
+Size: 2801400
+MD5sum: 3fcb239af2036c6d35b6f5c74e80cb05
+SHA1: b31aeaa0c56e52e9837d3832912da73ae08515d2
+SHA256: 986daa470048fed21e1083ae315a6b6d4f6bcf17441a6f04893bbba927024bd2
+
 Package: aspnetcore-runtime-dbg-10.0
 Architecture: aarch64
 Installed-Size: 5860
@@ -40,6 +54,20 @@ MD5sum: e4bd2de41b3c01bf41813fe1ddc8400b
 SHA1: 17b0de5aed490444a0808a145289b63458654552
 SHA256: 80467655e4a6a8cc76b247a4dd5ce7eca7817d10d0d046a773b3299a8ef358f7
 
+Package: aspnetcore-runtime-dbg-9.0
+Architecture: aarch64
+Installed-Size: 5652
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-9.0
+Description: ASP.NET Core 9.0 Runtime Managed Debug Symbols
+Filename: ./aspnetcore-runtime-dbg-9.0_9.0.23-1_aarch64.deb
+Size: 1507300
+MD5sum: 24f0908d67bf770998edbdc8a3a3e8c4
+SHA1: b3b0e9597696e375724cbda12b39a340fd1b62d2
+SHA256: bb90b80fc52dc7eda5779d34ee0b61d80fa152cdd86b0a4131a47648c2909364
+
 Package: aspnetcore-targeting-pack-10.0
 Architecture: aarch64
 Installed-Size: 47264
@@ -53,6 +81,20 @@ Size: 3416556
 MD5sum: de4512bd906a057bc740653b5d967726
 SHA1: 048f643a81f78617adab1a0957741c879025f3ba
 SHA256: 0cc9fc7b00dc2624d33d53d6b71f438e77592a7ebc79762149b31084540946c6
+
+Package: aspnetcore-targeting-pack-9.0
+Architecture: aarch64
+Installed-Size: 15768
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: ASP.NET Core 9.0 Targeting Pack
+Filename: ./aspnetcore-targeting-pack-9.0_9.0.23-1_aarch64.deb
+Size: 1740772
+MD5sum: 9321e66cc48fae6d2dd1cc238091d7c1
+SHA1: 777ae82c2a97aa554a8cddee93d8b04bac9b2ca2
+SHA256: 67b20c563cff68db9ac29754d9e0208a291b1b7aa19610d22638869b5b6dce6d
 
 Package: assimp
 Architecture: aarch64
@@ -209,6 +251,19 @@ MD5sum: 7911441f063a6b40e258174261767699
 SHA1: 54d36a13613857e7f27330ea935afc54e9cca0f5
 SHA256: 423669c7e72f0ec08570879bae8000c6e48da7521ceb10c8cba5bf7d3c04c724
 
+Package: dotnet-apphost-pack-9.0
+Architecture: aarch64
+Installed-Size: 2828
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Targeting Pack
+Filename: ./dotnet-apphost-pack-9.0_9.0.23-1_aarch64.deb
+Size: 413244
+MD5sum: 97eca70ecf6c96d5e445502d2fb98a43
+SHA1: 7bbe4d3f0ed6045b957b845714caea94d2d0ad83
+SHA256: 8247899f3c7bc669a0763b6e06f7413d78c7bb2aafea802ccaced6ff748580b5
+
 Package: dotnet-host-10.0
 Architecture: aarch64
 Installed-Size: 556
@@ -222,6 +277,20 @@ Size: 182432
 MD5sum: 901824f3d39ab0531c2ce80d6e155fd8
 SHA1: 1211c138db9e09604a16d33734584fd3e1c3bdec
 SHA256: e0c75c99a2b88c080c6b84f0ae539c7604a9bf067fe08b88e889bad3a9e4ce6f
+
+Package: dotnet-host-9.0
+Architecture: aarch64
+Installed-Size: 768
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Conflicts: dotnet-host-8.0
+Description: .NET 9.0 Host
+Filename: ./dotnet-host-9.0_9.0.23-1_aarch64.deb
+Size: 229336
+MD5sum: 453e20398ae0b0f029499fa82bc67370
+SHA1: dcb635b269c4f0d4ce67bbcb496cf7839d77ae54
+SHA256: 3d442a37cb8cddf30dffbb989a2c6d3bb2bdcdbf6bdd2e94292e4643ec3052b2
 
 Package: dotnet-hostfxr-10.0
 Architecture: aarch64
@@ -237,6 +306,20 @@ MD5sum: 536a2f59aa491353fc9acd4956f3a4a5
 SHA1: 0b1a8358130b23edfedbeb9c0e662162b274bba0
 SHA256: c90ad339c9f0852d7713eca5130119c6eafd6fb68878aade82b41d1f384142de
 
+Package: dotnet-hostfxr-9.0
+Architecture: aarch64
+Installed-Size: 888
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 9.0 Host Resolver
+Filename: ./dotnet-hostfxr-9.0_9.0.23-1_aarch64.deb
+Size: 221212
+MD5sum: cd75e6db23e3c4a356f99f9aef96e14a
+SHA1: 131d96b6f032e598775f70e2991ac3b168f99291
+SHA256: 79e8c8743d8fffbbbf9f29a6044f3a83a98997345e52f419012642fd211a4d12
+
 Package: dotnet-runtime-10.0
 Architecture: aarch64
 Installed-Size: 72016
@@ -250,6 +333,20 @@ Size: 14519964
 MD5sum: 66e1b6824ac809eda4d76557498c4f3e
 SHA1: 8d52fbeb84dfdad5bc2089fd5a61af5138ee2e74
 SHA256: f76f20f01dcde47fee79cb2af2d4d0cec7f8a97dd78588069f5374fa576557a3
+
+Package: dotnet-runtime-9.0
+Architecture: aarch64
+Installed-Size: 33492
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-hostfxr-9.0, libicu, openssl, zlib
+Description: .NET 9.0 Runtime
+Filename: ./dotnet-runtime-9.0_9.0.23-1_aarch64.deb
+Size: 8391660
+MD5sum: 3b8bc2c4023b2bbabf8b7e538612d333
+SHA1: 998dc59c3754a52c6588ca9c95197ddd546108d9
+SHA256: e5baf578366370c73d9032b90cba35d314fd7b81b0ee10b92393949c883b9cda
 
 Package: dotnet-runtime-dbg-10.0
 Architecture: aarch64
@@ -265,6 +362,20 @@ MD5sum: 949b414ad090eac4682f278e87a92c03
 SHA1: 702b2a09ea34852502b61abbb9ea767735c2dd31
 SHA256: 1860d859080fec136597036d7ca0bdf8fcf5737fe524b79b7c64bbbca1a6391b
 
+Package: dotnet-runtime-dbg-9.0
+Architecture: aarch64
+Installed-Size: 8608
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-9.0
+Description: .NET 9.0 Runtime Managed Debug Symbols
+Filename: ./dotnet-runtime-dbg-9.0_9.0.23-1_aarch64.deb
+Size: 2791868
+MD5sum: e0838beff9b67b4d4ef3314ef743dd2f
+SHA1: c72aea92b2c0ec51cf1ad588ff375555443bf12d
+SHA256: a2ff2dba7bc77c153a879cbd42528a8eb4d7ee9058e2a312cef192871a6255cc
+
 Package: dotnet-sdk-dbg-10.0
 Architecture: aarch64
 Installed-Size: 16472
@@ -278,6 +389,20 @@ Size: 2850216
 MD5sum: cfcccb4cdd1fbcb2fa803f498bab4e47
 SHA1: 298a067370c5ca8eddd79c2512b87db774c6fa80
 SHA256: 7552906e7209af3c32f4755c631a2ca559dfa16f716749d073d9afb12ae5da8a
+
+Package: dotnet-sdk-dbg-9.0
+Architecture: aarch64
+Installed-Size: 47952
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-sdk-9.0
+Description: .NET 9.0 SDK Managed Debug Symbols
+Filename: ./dotnet-sdk-dbg-9.0_9.0.23-1_aarch64.deb
+Size: 15658884
+MD5sum: 93f6cf4cab2ff5ddd232eaba0589c532
+SHA1: 0c7a7058b0cfa15a65a0bd354ab48322bca112b0
+SHA256: 1665470944e8c27c2c6552b11861465ccc920315b53746d1211bb2ff55d583fd
 
 Package: dotnet-targeting-pack-10.0
 Architecture: aarch64
@@ -293,6 +418,20 @@ MD5sum: 3cb8c2ba2f1d67fe5cce8c2c2a96ae97
 SHA1: 78faa88370255792552459a87f7295e292af54c8
 SHA256: 41e461a4dc00d859cb1f16d8f217440da37431eb588b241a75cb6dbdb99a8281
 
+Package: dotnet-targeting-pack-9.0
+Architecture: aarch64
+Installed-Size: 38564
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 9.0 Targeting Pack
+Filename: ./dotnet-targeting-pack-9.0_9.0.23-1_aarch64.deb
+Size: 2885056
+MD5sum: e5a841067eedf75f0828d4f215af6490
+SHA1: adc04243673fc1e95a249a79733ccd3dfde76d26
+SHA256: 2ef3b6bb49372567c9fbfc960a329ee7225c8c296d70ead1074293b6ae47bbd7
+
 Package: dotnet-templates-10.0
 Architecture: aarch64
 Installed-Size: 10312
@@ -306,6 +445,20 @@ Size: 2931440
 MD5sum: 5ff462692e8a7ad9058add48f65c0d90
 SHA1: c4a8971dcbf731f7a2c310ba08862b9a91edff4b
 SHA256: 8e64b48c65372c019905b06a8b31b49de2170070519c8ccb3c15a873cbc944b0
+
+Package: dotnet-templates-9.0
+Architecture: aarch64
+Installed-Size: 9988
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 9.0 Templates
+Filename: ./dotnet-templates-9.0_9.0.23-1_aarch64.deb
+Size: 2719044
+MD5sum: d6d30c8a04a1b4989b3c2c61ca266082
+SHA1: 54ff6d3f30fbc7ec8741a05e1f9c938105797606
+SHA256: ead2b23282fb4aaff12043f734328acf2c6923e911473b9969ac35c27bab8bd3
 
 Package: dotnet10.0
 Architecture: aarch64
@@ -322,6 +475,22 @@ Size: 1696
 MD5sum: 1cfda492d7133927eab331eae0a26905
 SHA1: a32bd3857a9b8497bc495d0166fdf06d9869ab14
 SHA256: f3dae57125f4efdaa6c6219b4966795c4822485fa90f5f8eedbbd464ffc75a5e
+
+Package: dotnet9.0
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-9.0, dotnet-host, dotnet-runtime-9.0
+Conflicts: dotnet8.0
+Suggests: dotnet-sdk-9.0
+Description: .NET 9.0
+Filename: ./dotnet9.0_9.0.23-1_aarch64.deb
+Size: 1556
+MD5sum: a47e598383486c8ae2a637ea47141d37
+SHA1: c736b884c472d1898951b69b665fc1ead47ff6c0
+SHA256: 53a868cdb30e9e509ad57876872fddb4cb99d3788810b6ca1ed4fb18e6ea2a93
 
 Package: dua
 Architecture: aarch64
@@ -749,10 +918,10 @@ Homepage: https://luajit.org/
 Depends: luajit (= 1:2.1.1794214635+gc4b1e2f-1)
 Description: Static libraries for luajit
 Filename: ./luajit-static_1:2.1.1794214635+gc4b1e2f-1_aarch64.deb
-Size: 225912
-MD5sum: 01164c257fb21bc5968b45af9edac5db
-SHA1: fb2e232e7c4c845b7a613057dc993f74c9b62200
-SHA256: 613e42e2371d789a99948e8015c3fd33ecbb8578aef289cf5d63d64d7b8aa78a
+Size: 225764
+MD5sum: 60c8badcc9b402fb64535d4febb647e9
+SHA1: cac2fa909ff44d0cb63235d8a0fb6a46495a9552
+SHA256: bd5a7640040cc1edb4429e19668fa79cebc7d13089b8d902c3bb7e48616c04d9
 
 Package: luajit
 Architecture: aarch64
@@ -764,10 +933,10 @@ Breaks: libluajit-dev, libluajit
 Replaces: libluajit-dev, libluajit
 Description: Just-In-Time Compiler for Lua
 Filename: ./luajit_1:2.1.1794214635+gc4b1e2f-1_aarch64.deb
-Size: 293936
-MD5sum: 01356e2b362b9757b70492ab910d9774
-SHA1: 47c49487982211d441d97cd4503e57c6ec40138a
-SHA256: 1f3d28fbf61067dc75e8a8ad0522c28ee778c7f64b2b3f829348786725a0da0d
+Size: 293736
+MD5sum: c6fa0e5b0f6e93a042013ca13a422f0e
+SHA1: f61808b5c361eaa9593cf83dc3254ef856bcecb9
+SHA256: 352e2d0ad7e642584c5e355bc47ab720c6030fb9700f33d1b4623b2d58fd057f
 
 Package: lux-cli
 Architecture: aarch64
@@ -842,6 +1011,37 @@ Size: 6266644
 MD5sum: dbe503a85393c24400b5db47539824b2
 SHA1: 463f44abaa4743e121d31e5ce2b7da45259873de
 SHA256: d9e6861d577e1fb5bdea1f4943af6ae9f35ba8de61048de3f52223e992a41d83
+
+Package: neovim-nightly
+Architecture: aarch64
+Installed-Size: 33948
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.13.0~dev-2076+g7e394dbb89-1
+Homepage: https://neovim.io/
+Breaks: neovim
+Depends: libandroid-support, libiconv, libmsgpack, libunibilium, libuv, libvterm (>= 1:0.3-0), lua51-lpeg, luajit, luv, tree-sitter, tree-sitter-parsers, utf8proc
+Conflicts: neovim
+Description: Ambitious Vim-fork focused on extensibility and agility (nvim-nightly)
+Filename: ./neovim-nightly_0.13.0~dev-2076+g7e394dbb89-1_aarch64.deb
+Size: 6270392
+MD5sum: 7353a1533a3fdb9d73006f401df19701
+SHA1: edcf25474ff56a059c87fe09a2943fe3aa3ba942
+SHA256: 3b86c9e61c96add0a6b45c60e93dd616cb6abe3442e9f7711b0b7b211a22c20e
+
+Package: netstandard-targeting-pack-2.1-9.0
+Architecture: aarch64
+Installed-Size: 18480
+Maintainer: @truboxl
+Version: 9.0.23-1
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Conflicts: netstandard-targeting-pack-2.1-8.0
+Description: NETStandard.Library 2.1 Targeting Pack (.NET 9.0)
+Filename: ./netstandard-targeting-pack-2.1-9.0_9.0.23-1_aarch64.deb
+Size: 1318004
+MD5sum: 4e4be5a5f39b8e2a33910542795bf6df
+SHA1: fd4474ee986d64f4eb8c69a18a42014af86f7e1d
+SHA256: a31736edde0c2908cca73149bf0deb18c5e2ad1968c3cb4e9fbaa58ddb80231b
 
 Package: nushell
 Architecture: aarch64
