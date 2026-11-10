@@ -177,6 +177,35 @@ MD5sum: 435c36cb699f41a79826598f5e25fcb7
 SHA1: 1fa390f67f4a80e724ea916e44e9521de5f5566a
 SHA256: 9dcb4cd3dff62514e14c170c01e0828d0b7b87379801a2be3b9de321555facc0
 
+Package: libgfshare-static
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: @termux
+Version: 2.0.0-9
+Homepage: https://www.digital-scurf.org/software/libgfshare
+Depends: libgfshare (= 2.0.0-9)
+Description: Static libraries for libgfshare
+Filename: ./libgfshare-static_2.0.0-9_aarch64.deb
+Size: 3524
+MD5sum: 651df66d212a2e46b5ef51eaa21cbacf
+SHA1: d6890b55c89624c9c5809155fbb578052dc58e20
+SHA256: e0edd25886fcc35f7b47988423164d22e044d7adb4fa7784c26767cd975f96b8
+
+Package: libgfshare
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: @termux
+Version: 2.0.0-9
+Homepage: https://www.digital-scurf.org/software/libgfshare
+Breaks: libgfshare-dev
+Replaces: libgfshare-dev
+Description: Utilities for multi-way secret-sharing
+Filename: ./libgfshare_2.0.0-9_aarch64.deb
+Size: 15776
+MD5sum: 63df3bcdba8774a77fd9e0985129890b
+SHA1: c472899e5fc386b17f0fb8bfe2da2160b75893d3
+SHA256: f4807363c819155c00f989b9ae139dcffbb93ff8918e8e21ceac3465d0a4fca7
+
 Package: libstemmer-static
 Architecture: aarch64
 Installed-Size: 1044
@@ -232,6 +261,21 @@ Size: 293936
 MD5sum: 01356e2b362b9757b70492ab910d9774
 SHA1: 47c49487982211d441d97cd4503e57c6ec40138a
 SHA256: 1f3d28fbf61067dc75e8a8ad0522c28ee778c7f64b2b3f829348786725a0da0d
+
+Package: lux-cli
+Architecture: aarch64
+Installed-Size: 27192
+Maintainer: @termux
+Version: 0.54.0-1
+Homepage: https://lux.lumen-labs.org
+Depends: bzip2, gpgme, libgit2, libgpg-error, lua54, openssl, xz-utils
+Provides: lx
+Description: A package manager for Lua, similar to luarocks
+Filename: ./lux-cli_0.54.0-1_aarch64.deb
+Size: 8192824
+MD5sum: 8670ccf09207492faca1d893f6e48ffe
+SHA1: 11747c8dfdd1adbaf9b14645f29f9728a1b9935b
+SHA256: 5442297721b8ef0210af22f0937f96cdce4d3b46238ec24042da3f397ab80c28
 
 Package: mise
 Architecture: aarch64
