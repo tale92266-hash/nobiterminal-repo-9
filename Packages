@@ -390,6 +390,36 @@ MD5sum: 3685ffa4f95fcc9fd1b067d0b03cae44
 SHA1: c4ddcfa5f2be2d801ec9876be2ad873c03884ecc
 SHA256: 37b2b9aa176e8bc6cf1062a0d96e0aaa761e67d4c29b12c92af56aa2f15db5b1
 
+Package: ollama-backend-vulkan
+Architecture: aarch64
+Installed-Size: 26400
+Maintainer: @termux
+Version: 0.40.16-1
+Homepage: https://ollama.com/
+Depends: ollama (= 0.40.16-1)
+Recommends: vulkan-loader
+Suggests: vulkan-loader-generic, mesa-vulkan-icd-freedreno
+Description: Vulkan Backend for Ollama
+Filename: ./ollama-backend-vulkan_0.40.16-1_aarch64.deb
+Size: 2545068
+MD5sum: 4de8ff29adc7dbcc31f7675da8c63b0b
+SHA1: e4b5bf21b5243210b99813c0f39c229d64fa1efe
+SHA256: 950b0a0cb33608b78d758fcf5a4fd5c282a358ec57c00680f766f931ca800dc8
+
+Package: ollama
+Architecture: aarch64
+Installed-Size: 60956
+Maintainer: @termux
+Version: 0.40.16-1
+Homepage: https://ollama.com/
+Depends: libandroid-spawn, libc++
+Description: Get up and running with large language models
+Filename: ./ollama_0.40.16-1_aarch64.deb
+Size: 13774292
+MD5sum: 2a48b6ff894134b9088dce62a99b0aef
+SHA1: 609c271736df14fe788953871699b67b3420124c
+SHA256: 4586f4ee70e091793c5231c18dd9b3729c6a16297341680ab83bb1b31deca5cb
+
 Package: oxfmt
 Architecture: aarch64
 Installed-Size: 6924
@@ -415,6 +445,20 @@ Size: 4058252
 MD5sum: 5f278e609f9e73b3d2445a8ed9c314b4
 SHA1: a69050325253f38047af1205c101cd11e578876e
 SHA256: b8b99d8a412bda9cb5423880601e4f532c65668e98ea628729cca10a8153fa36
+
+Package: pnpm
+Architecture: aarch64
+Installed-Size: 49304
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 12.19.0-1
+Homepage: https://pnpm.io
+Depends: git, nodejs | nodejs-lts
+Description: Fast, disk space efficient package manager for JavaScript
+Filename: ./pnpm_12.19.0-1_aarch64.deb
+Size: 15025004
+MD5sum: 8df40e58084f1426b81e393250acf144
+SHA1: 1ef2adf28884ac01758dddb974540fd279f0fa3f
+SHA256: 72f711a58602d6626307a4fece3093e9c40b0c854743cc7237e7e548dcf65fde
 
 Package: rolldown
 Architecture: aarch64
@@ -482,6 +526,20 @@ Size: 422408
 MD5sum: b456b1a60de107c847add375b0a2da15
 SHA1: 7cc3d94c6c97cc418100515bed9247644a00f36a
 SHA256: 350e0bd8b0f84b17589aa9d27d76b474184c079941aa0fbdbc1106fbfd5fa2df
+
+Package: turbopack
+Architecture: aarch64
+Installed-Size: 88852
+Maintainer: @termux
+Version: 16.4.6-1
+Homepage: https://nextjs.org/
+Depends: ca-certificates
+Description: Rust-based incremental compilation engine and bundler for Next.js
+Filename: ./turbopack_16.4.6-1_aarch64.deb
+Size: 19930628
+MD5sum: b1acdfe5b214e5e498159a5bd3327d4b
+SHA1: c3e4bac3d32f6a47b31dd3f1ff0e335b2af01d89
+SHA256: 670c2911e6e7354c90329577f1c4a6780d8ae34d5a1cdcb3d763fd0b12ec21f2
 
 Package: ty
 Architecture: aarch64
