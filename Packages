@@ -42,6 +42,50 @@ MD5sum: c9302c87a4559c395925f5eb8484bf97
 SHA1: cd91ae79f5de7d9dddb8a723821406ce49070d3f
 SHA256: 34fb7eb74d285a724de5f75f722f8031b71e9aae51bdb3823c892fc1859b4e73
 
+Package: calcurse-caldav
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: @termux
+Version: 4.9.0-1
+Homepage: https://calcurse.org/
+Depends: python, python-pip, calcurse (= 4.9.0-1)
+Breaks: calcurse (<< 4.7.1-1)
+Replaces: calcurse (<< 4.7.1-1)
+Description: Sync calcurse with remote caldav calendar
+Filename: ./calcurse-caldav_4.9.0-1_aarch64.deb
+Size: 8028
+MD5sum: 1bf489574a1549926cb7f3e40ed3402f
+SHA1: 3c414b1f0c2f6a074ea94eae49562ac1a3fb93a1
+SHA256: 8e48cc5f74c0a549778d3fbbcabc4e14680350d0a2fd6e27b0a79e8f4c6aca26
+
+Package: calcurse
+Architecture: aarch64
+Installed-Size: 624
+Maintainer: @termux
+Version: 4.9.0-1
+Homepage: https://calcurse.org/
+Depends: libandroid-support, ncurses
+Recommends: calcurse-caldav
+Description: calcurse is a calendar and scheduling application for the command line
+Filename: ./calcurse_4.9.0-1_aarch64.deb
+Size: 147336
+MD5sum: 914a33cee0e3a8dfb123e6d1f10f8c2e
+SHA1: e1aeff8bc3a61871a4ac0407837596defbf5c1f5
+SHA256: 05cb0cc6adc79e4e57f32294584625e14390a50b0b532ce7429b6b52e803bc2d
+
+Package: cargo-audit
+Architecture: aarch64
+Installed-Size: 11932
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.23.0-1
+Homepage: https://rustsec.org
+Description: Audit Cargo.lock for crates with security vulnerabilities reported to the RustSec Advisory Database
+Filename: ./cargo-audit_0.23.0-1_aarch64.deb
+Size: 3893952
+MD5sum: 7aed53688592d004bfa1ab709c0c6e8c
+SHA1: 4789dae625b989a2a16e9d34925c276664131d64
+SHA256: c32d049bc9001dff18b4ee4ed65932ee9f01f981ed623d3b412db798c29f0d86
+
 Package: chicken-static
 Architecture: aarch64
 Installed-Size: 8712
@@ -96,6 +140,19 @@ Size: 8898476
 MD5sum: 1367dab2403beb3c4bd4fd129fbc3608
 SHA1: 1076460e2a195df1a0cdc6ffb704e73c8e02ac00
 SHA256: 3ae67edc18b867d577766314cc7776acb3c2ac91d842bd3cb8fe952e6d854033
+
+Package: doctl
+Architecture: aarch64
+Installed-Size: 38296
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.4.0-1
+Homepage: https://github.com/digitalocean/doctl
+Description: The official command line interface for the DigitalOcean API
+Filename: ./doctl_2.4.0-1_aarch64.deb
+Size: 8858664
+MD5sum: ec78bc4f3ba6a5e8313b689f1b4a68a1
+SHA1: 28b7f3a04beb162806f7cc8c47bdbc701acc53f1
+SHA256: 7d2a543ea798be0e8fb30653a1887d60e803c80f84b6c90705729e7d5c5dba39
 
 Package: dua
 Architecture: aarch64
@@ -383,10 +440,10 @@ Homepage: https://snowballstem.org/
 Depends: libstemmer (= 3.2.0-1)
 Description: Static libraries for libstemmer
 Filename: ./libstemmer-static_3.2.0-1_aarch64.deb
-Size: 133536
-MD5sum: db85e52f4f2684825855be2f64cb230a
-SHA1: 77666f9c79bbf6d5b9c607231673b44516b372b6
-SHA256: 5cbb6a8affd09ab9274f9e6b8d9164fd2655b12377c61b751b8e818a9d609c08
+Size: 133484
+MD5sum: 00e9ddf1132ba295e99af053cba5f7d8
+SHA1: fbf437e56ec5bce56853f63ac8b224849547cb6f
+SHA256: d425c8b3059eff29bd0d521e97782aa2321d0b32491f1612810a0b9ba0e3c27d
 
 Package: libstemmer
 Architecture: aarch64
@@ -396,10 +453,24 @@ Version: 3.2.0-1
 Homepage: https://snowballstem.org/
 Description: Snowball compiler and stemming algorithms
 Filename: ./libstemmer_3.2.0-1_aarch64.deb
-Size: 108664
-MD5sum: d34318a8857fb54095e492799aebaf44
-SHA1: 8f8ab3cf9884d8378bebcbb1e390b3d0db8a2795
-SHA256: d97e8c2f6638333c5210b188b4c961f1ffc32540cdc8f8515dd85134928dd1ca
+Size: 108644
+MD5sum: c2ee6785f03b4b2b9c5d29f0f85aaac1
+SHA1: b3b14cdf94ab48ba9780a9a566c0c40fdd9812f2
+SHA256: 7d01dc4185e7db7f21c4c3407d381eaa32e8d2a927cf234f08f65c4942f85048
+
+Package: libxmlb
+Architecture: aarch64
+Installed-Size: 700
+Maintainer: @termux
+Version: 0.3.30-1
+Homepage: https://github.com/hughsie/libxmlb
+Depends: glib, liblzma, libstemmer, zstd
+Description: Library to help create and query binary XML blobs
+Filename: ./libxmlb_0.3.30-1_aarch64.deb
+Size: 91744
+MD5sum: 88ea01b7132dd5181564f6260f5491fc
+SHA1: 146c5c9348f2be50e39d3ee20b82cd722a09ca1b
+SHA256: 67efa08cf9af9dde2ac8b7c637b839ae6a2d0e3c0b1c04eb04fef4f4ee819ef4
 
 Package: luajit-static
 Architecture: aarch64
@@ -653,10 +724,10 @@ Version: 3.2.0-1
 Homepage: https://snowballstem.org/
 Description: A command-line tool which uses libstemmer
 Filename: ./stemwords_3.2.0-1_aarch64.deb
-Size: 108104
-MD5sum: 560792ca8d1ec1c105e7f06194d77e5a
-SHA1: 8cc0be4cab927da50c0af03dc701026ebb2fe44a
-SHA256: e13c3a9442f192c41131a2adf783118064eb2141f33da1548c041b643f050d1d
+Size: 107988
+MD5sum: a14bff043a99a4592f0e2275a6711f03
+SHA1: 6bef08009b8cdc78f940c598cc0e71503b16c47a
+SHA256: 47d1dafb5264260458f0caddb4e827f0908c186afbb334e02e2c6b035d099099
 
 Package: storj-uplink
 Architecture: aarch64
