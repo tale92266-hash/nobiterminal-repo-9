@@ -220,6 +220,20 @@ MD5sum: 0abfd7cc3d555cb37c2e128df95a87c2
 SHA1: 2edbc0e32ab26c62d32627cdc4b63d4c2a5f33c3
 SHA256: de31b19250d268b5b5090a4854ce2e2f0d39a7eb55a07b1a97a33a95237602d9
 
+Package: jackett
+Architecture: aarch64
+Installed-Size: 16232
+Maintainer: @termux
+Version: 0.24.3042-1
+Homepage: https://github.com/jackett/jackett
+Depends: aspnetcore-runtime-9.0, dotnet-host, dotnet-runtime-9.0
+Description: API Support for your favorite torrent trackers
+Filename: ./jackett_0.24.3042-1_aarch64.deb
+Size: 3564944
+MD5sum: 24120b3c1c7861c3d9f7a8733cde8daa
+SHA1: 76e47640316dcb1f486101501589b8be5a7c50f3
+SHA256: 415e6d04658cdd7e8f4f696ed25c4e9998391833556f177f4b04bbe19589bf3a
+
 Package: libblosc2
 Architecture: aarch64
 Installed-Size: 1072
@@ -419,6 +433,34 @@ Size: 13774292
 MD5sum: 2a48b6ff894134b9088dce62a99b0aef
 SHA1: 609c271736df14fe788953871699b67b3420124c
 SHA256: 4586f4ee70e091793c5231c18dd9b3729c6a16297341680ab83bb1b31deca5cb
+
+Package: openjdk-17-x
+Architecture: aarch64
+Installed-Size: 14704
+Maintainer: @termux
+Version: 17.0.21-3
+Homepage: https://openjdk.java.net
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-17 (= 17.0.21-3)
+Description: Portion of openjdk-17 requiring X11 functionality
+Filename: ./openjdk-17-x_17.0.21-3_aarch64.deb
+Size: 12561560
+MD5sum: eb1587a5671300240bf44309182b1685
+SHA1: 6edaf7ceb2f7fc60431ff0ea657c7fa18f3687fe
+SHA256: d30bcd57af1ca7e1893a177205a5dccef872195aff4449f91fc7dc7a0d5bc5ad
+
+Package: openjdk-21-x
+Architecture: aarch64
+Installed-Size: 14716
+Maintainer: @termux
+Version: 21.0.13-3
+Homepage: https://openjdk.java.net
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-21 (= 21.0.13-3)
+Description: Portion of openjdk-21 requiring X11 functionality
+Filename: ./openjdk-21-x_21.0.13-3_aarch64.deb
+Size: 12572912
+MD5sum: f755653b04c70eb4c59519aa1ed33441
+SHA1: 309e07b7bd6f913620bde210261acb879863540a
+SHA256: 2a0a057917f78127b71caf11f1944069e00fe5ea461c1a2abf80978e5f46ca55
 
 Package: oxfmt
 Architecture: aarch64
