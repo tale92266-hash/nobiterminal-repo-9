@@ -184,6 +184,19 @@ MD5sum: 7aed53688592d004bfa1ab709c0c6e8c
 SHA1: 4789dae625b989a2a16e9d34925c276664131d64
 SHA256: c32d049bc9001dff18b4ee4ed65932ee9f01f981ed623d3b412db798c29f0d86
 
+Package: chezmoi
+Architecture: aarch64
+Installed-Size: 42460
+Maintainer: Henrik Grimler @Grimler91
+Version: 2.74.1-1
+Homepage: https://chezmoi.io
+Description: Manage your dotfiles across multiple machines
+Filename: ./chezmoi_2.74.1-1_aarch64.deb
+Size: 10718944
+MD5sum: be0e6a048a834ed2e412410d58fcb68b
+SHA1: 20417100e173c2b76fa8903bfb04b2a3e4e7b917
+SHA256: 826bb543035c3751b03ca0684359441b9e509fb61d1315b0741d5ce9829b61db
+
 Package: chicken-static
 Architecture: aarch64
 Installed-Size: 8712
@@ -238,6 +251,20 @@ Size: 8898476
 MD5sum: 1367dab2403beb3c4bd4fd129fbc3608
 SHA1: 1076460e2a195df1a0cdc6ffb704e73c8e02ac00
 SHA256: 3ae67edc18b867d577766314cc7776acb3c2ac91d842bd3cb8fe952e6d854033
+
+Package: ctranslate2
+Architecture: aarch64
+Installed-Size: 4464
+Maintainer: @termux
+Version: 4.9.0-1
+Homepage: https://github.com/OpenNMT/CTranslate2
+Depends: libandroid-posix-semaphore, libopenblas, libc++, python
+Description: A fast inference engine for Transformer models
+Filename: ./ctranslate2_4.9.0-1_aarch64.deb
+Size: 820044
+MD5sum: 3d5ab4e9e51fb321dfb685ffa43e17a6
+SHA1: 4b25f4c3fd3172ce7e02af4fd21000f1972bd264
+SHA256: 91deaa76f521f22dd4467dc9b38adb313da3ac175d8eecde085cb37e5a96b068
 
 Package: doctl
 Architecture: aarch64
@@ -602,6 +629,20 @@ MD5sum: aeef853568132bc3763a328cf778050c
 SHA1: e92404d6824db2abc91eb24bca05e689e046ea55
 SHA256: 6c0c5b0f4063daaa995d8028dd3879ba9dbf567bd72703744c18c68b327a7646
 
+Package: exiftool
+Architecture: all
+Installed-Size: 18552
+Maintainer: @termux
+Version: 13.63-1
+Homepage: https://exiftool.org/
+Depends: perl
+Description: Utility for reading, writing and editing meta information in a wide variety of files.
+Filename: ./exiftool_13.63-1_all.deb
+Size: 3918220
+MD5sum: b66a28d755bb69968d54236c25bcbc08
+SHA1: 1313f878e16f0962e54666aa7ba7e2639a189320
+SHA256: a758ae6b06583030baa4a96f97b00b09307e02e859cb65cf4c98d3ea635adf72
+
 Package: flyctl
 Architecture: aarch64
 Installed-Size: 80016
@@ -614,6 +655,19 @@ Size: 17507372
 MD5sum: 4021b717ba6560c0b24eb65d589f2f5f
 SHA1: d6f2803c6c9f13d2bb7e4d37a7a70c1fab9655c5
 SHA256: 0083dc50de18adf2373067795bbb15bceec7dad16c430e165883e2e1adf13748
+
+Package: flyctl
+Architecture: aarch64
+Installed-Size: 80016
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 0.5.7-1
+Homepage: https://fly.io
+Description: Command line tools for fly.io services
+Filename: ./flyctl_0.5.7-1_aarch64.deb
+Size: 17506064
+MD5sum: 54ef59a583c70eae48b00a61141c65fa
+SHA1: 5b745dcdde3888d2fc1c93d94d4c37ce1df76e4e
+SHA256: 86cb0612f586dabeb64f50360bb169b83da73b9c654df4a852a9b220aa79adbd
 
 Package: git-cliff
 Architecture: aarch64
@@ -768,6 +822,20 @@ MD5sum: 0abfd7cc3d555cb37c2e128df95a87c2
 SHA1: 2edbc0e32ab26c62d32627cdc4b63d4c2a5f33c3
 SHA256: de31b19250d268b5b5090a4854ce2e2f0d39a7eb55a07b1a97a33a95237602d9
 
+Package: inshellisense
+Architecture: aarch64
+Installed-Size: 89868
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.1.0-1
+Homepage: https://github.com/microsoft/inshellisense
+Depends: nodejs | nodejs-lts
+Description: IDE style command line auto complete
+Filename: ./inshellisense_0.1.0-1_aarch64.deb
+Size: 6132416
+MD5sum: 5b1c3d500cd7bf833419bfc1c9e38888
+SHA1: ffb5fd7c7797c5a2f74ad935c84d68bea90d8418
+SHA256: 94ee83c8c48ebeac9ede312cb88b0637fa2c156d91925f38c5f19426f80fcdd8
+
 Package: jackett
 Architecture: aarch64
 Installed-Size: 16232
@@ -811,6 +879,35 @@ Size: 20116
 MD5sum: ebc5e2862b4641db82b1b0bd5208c8bb
 SHA1: f90e5e79815932746b53e89325682ced4570b0b5
 SHA256: e816307be9868aaa50f536675bf37e09fd6b28c14e385fd986d8936b01baeb0e
+
+Package: lfortran-static
+Architecture: aarch64
+Installed-Size: 26268
+Maintainer: @termux
+Version: 0.69.0-1
+Homepage: https://lfortran.org/
+Depends: lfortran (= 0.69.0-1)
+Description: Static libraries for lfortran
+Filename: ./lfortran-static_0.69.0-1_aarch64.deb
+Size: 2431980
+MD5sum: 2b6b0d68d3f33689d0c812f5c777a1c1
+SHA1: 482690f5a30bca020f682c9aac413b9931dc12bb
+SHA256: 43f5579dc404d92bf6b981c40bc43af6546519364e4c2a6f3b4cb5abf3400a23
+
+Package: lfortran
+Architecture: aarch64
+Installed-Size: 84696
+Maintainer: @termux
+Version: 0.69.0-1
+Homepage: https://lfortran.org/
+Depends: clang, libandroid-complex-math, libandroid-spawn, libc++, ncurses, zlib, zstd
+Suggests: libkokkos
+Description: A modern open-source interactive Fortran compiler
+Filename: ./lfortran_0.69.0-1_aarch64.deb
+Size: 17987216
+MD5sum: e84509fb7fb302be89714357ca28bdce
+SHA1: 492b1744c89e789f46fb17fc96d77d8bb51aca7e
+SHA256: 5ff4b7f5efacfbd9b18f7a7be99f831b9806da82fbcac68b74d0f24584c13a26
 
 Package: libblosc2
 Architecture: aarch64
@@ -966,6 +1063,21 @@ Size: 8192824
 MD5sum: 8670ccf09207492faca1d893f6e48ffe
 SHA1: 11747c8dfdd1adbaf9b14645f29f9728a1b9935b
 SHA256: 5442297721b8ef0210af22f0937f96cdce4d3b46238ec24042da3f397ab80c28
+
+Package: lux-cli
+Architecture: aarch64
+Installed-Size: 27232
+Maintainer: @termux
+Version: 0.55.0-1
+Homepage: https://lux.lumen-labs.org
+Depends: bzip2, gpgme, libgit2, libgpg-error, lua54, openssl, xz-utils
+Provides: lx
+Description: A package manager for Lua, similar to luarocks
+Filename: ./lux-cli_0.55.0-1_aarch64.deb
+Size: 8205532
+MD5sum: e56af6b0f73d5e68e4075db526a648c5
+SHA1: 9927b0b26c91c69e817487be4fbf6d9841c7bcc3
+SHA256: c84dfc43d1b2ddb5a48d9081ed681b3a7063a9259492368461811932a61f4ecf
 
 Package: mdcat
 Architecture: aarch64
@@ -1139,10 +1251,10 @@ Homepage: https://openjdk.java.net
 Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-21 (= 21.0.13-3)
 Description: Portion of openjdk-21 requiring X11 functionality
 Filename: ./openjdk-21-x_21.0.13-3_aarch64.deb
-Size: 12572912
-MD5sum: f755653b04c70eb4c59519aa1ed33441
-SHA1: 309e07b7bd6f913620bde210261acb879863540a
-SHA256: 2a0a057917f78127b71caf11f1944069e00fe5ea461c1a2abf80978e5f46ca55
+Size: 12572784
+MD5sum: 8bdebd782d84d0028ad23139a5c8f1f4
+SHA1: b8a2a3b6cc0eefdceaec9fdfe7e150d7d0ac5ddf
+SHA256: 60ac6ae414e3ce741ee6ceb4564729392edeea7f7e420013b5479bb4bd6b3dc8
 
 Package: oxfmt
 Architecture: aarch64
@@ -1183,6 +1295,20 @@ Size: 15025004
 MD5sum: 8df40e58084f1426b81e393250acf144
 SHA1: 1ef2adf28884ac01758dddb974540fd279f0fa3f
 SHA256: 72f711a58602d6626307a4fece3093e9c40b0c854743cc7237e7e548dcf65fde
+
+Package: python-ctranslate2
+Architecture: aarch64
+Installed-Size: 1640
+Maintainer: @termux
+Version: 4.9.0-1
+Homepage: https://github.com/OpenNMT/CTranslate2
+Depends: python, python-numpy, python-pip, ctranslate2 (= 4.9.0-1)
+Description: Python bindings for CTranslate2
+Filename: ./python-ctranslate2_4.9.0-1_aarch64.deb
+Size: 277556
+MD5sum: 3deaf284a053d0acac597569b5a86316
+SHA1: 277626fd8bc4f06b0fd0a5ac52528af8cebafa81
+SHA256: f4d5ab21c9ccf0dd6fba09ce1e433d7b12b58adb8793c18f5ea5a7abf1f87047
 
 Package: rolldown
 Architecture: aarch64
@@ -1263,6 +1389,19 @@ Size: 422408
 MD5sum: b456b1a60de107c847add375b0a2da15
 SHA1: 7cc3d94c6c97cc418100515bed9247644a00f36a
 SHA256: 350e0bd8b0f84b17589aa9d27d76b474184c079941aa0fbdbc1106fbfd5fa2df
+
+Package: tree-sitter-sql
+Architecture: aarch64
+Installed-Size: 13156
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.3.13-1
+Homepage: https://github.com/derekstride/tree-sitter-sql
+Description: SQL grammar for tree-sitter
+Filename: ./tree-sitter-sql_0.3.13-1_aarch64.deb
+Size: 439836
+MD5sum: 89b3aef0f7d9d4809472f1c30e348a17
+SHA1: 432d48161a47a3198855b5192693f37ae6897a45
+SHA256: c537bec303e6ac7a1bdf54033b900a71a4c519c5303d123aeeb7114a959e6e3c
 
 Package: turbopack
 Architecture: aarch64
