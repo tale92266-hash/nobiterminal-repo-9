@@ -981,6 +981,20 @@ MD5sum: d2cc8ba1b8c2853912861f2cf48d04f3
 SHA1: b780948157c6a6a2b3309392c17422521028cae9
 SHA256: 8a64a960fab9391ebebb35ad42a2d0f1d060338e3d82e96b07501dedb413ec53
 
+Package: mise
+Architecture: aarch64
+Installed-Size: 188688
+Maintainer: @termux
+Version: 2026.11.6-1
+Homepage: https://mise.jdx.dev/
+Depends: bzip2, openssl
+Description: dev tools, env vars, task runner
+Filename: ./mise_2026.11.6-1_aarch64.deb
+Size: 41674460
+MD5sum: 964a4421418c6a68dfc6ef24d6630421
+SHA1: 2261cf62638ff1364868cf319a6cfc798b22cda2
+SHA256: 4d781ea6bd4048a30b0bcc953f9278f5c78180a007efb398e2ae5bf8a495d1a8
+
 Package: mycli
 Architecture: aarch64
 Installed-Size: 2724
