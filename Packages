@@ -780,6 +780,19 @@ MD5sum: 7dd1aa3de7f0943162c86510177ad800
 SHA1: 3e21422332465df98b2bf0c3d9ecc7ae43cc58e6
 SHA256: d726deab33b10d4e6efd435d17bf195862d3134ffc6005b7b16a4a0efd446125
 
+Package: goreleaser
+Architecture: aarch64
+Installed-Size: 90556
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.20.1-1
+Homepage: https://goreleaser.com
+Description: Deliver Go binaries as fast and easily as possible
+Filename: ./goreleaser_2.20.1-1_aarch64.deb
+Size: 17525664
+MD5sum: bb2b343f0cdad0c568246d24439d00ca
+SHA1: 786073dc672050b40a9ad69786e495d7a7bee357
+SHA256: c1397d7a9a7d465d58378ecc8aa399f382cd72c5db7de25969af5a297de2ee00
+
 Package: hk
 Architecture: aarch64
 Installed-Size: 24608
@@ -1006,6 +1019,34 @@ MD5sum: 0a51a5c5e9ed0bc1e8374d33979cc6b9
 SHA1: 3ecaf1e81d806c0cf0b813424a161c217582adfb
 SHA256: 62f05eb45cf7c498ff60fdf4b24f641be420ab18d629a06025d4fbddcc743ee4
 
+Package: libtatsu-static
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 1.1.1-1
+Homepage: https://libimobiledevice.org/
+Depends: libtatsu (= 1.1.1-1)
+Description: Static libraries for libtatsu
+Filename: ./libtatsu-static_1.1.1-1_aarch64.deb
+Size: 15760
+MD5sum: f83c2434c36bc8d60c41bc09225c9393
+SHA1: a9ab9eadf67b1408ebe7b86a9fbc94c7a3387bd2
+SHA256: 92380827c1310304115a22ee6028925ca7e7b3fde098a831b40779203208d9f3
+
+Package: libtatsu
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 1.1.1-1
+Homepage: https://libimobiledevice.org/
+Depends: libcurl (>= 7.0), libplist
+Description: Library handling the communication with Apple's Tatsu Signing Server (TSS)
+Filename: ./libtatsu_1.1.1-1_aarch64.deb
+Size: 15564
+MD5sum: 7955efbd880a4692c698d20119ff6995
+SHA1: f976f78a55b61894fad4cb3d783fe5b7935815f8
+SHA256: 889f244d52a770cebb74a4f70835c0df393804ba2daf26fa123dcc2fad0c85fe
+
 Package: libxmlb
 Architecture: aarch64
 Installed-Size: 700
@@ -1168,6 +1209,22 @@ MD5sum: 7353a1533a3fdb9d73006f401df19701
 SHA1: edcf25474ff56a059c87fe09a2943fe3aa3ba942
 SHA256: 3b86c9e61c96add0a6b45c60e93dd616cb6abe3442e9f7711b0b7b211a22c20e
 
+Package: neovim-nightly
+Architecture: aarch64
+Installed-Size: 33948
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.13.0~dev-2081+g5a53f3bb9e-1
+Homepage: https://neovim.io/
+Breaks: neovim
+Depends: libandroid-support, libiconv, libmsgpack, libunibilium, libuv, libvterm (>= 1:0.3-0), lua51-lpeg, luajit, luv, tree-sitter, tree-sitter-parsers, utf8proc
+Conflicts: neovim
+Description: Ambitious Vim-fork focused on extensibility and agility (nvim-nightly)
+Filename: ./neovim-nightly_0.13.0~dev-2081+g5a53f3bb9e-1_aarch64.deb
+Size: 6271480
+MD5sum: ad70227cc725861b69500759a377da74
+SHA1: 78cab5cc2e1fdeff67baeaa4860c9473c349795c
+SHA256: 622c3c62a7b1e63e3e62130a065b3859a1a62224e53e1d3422910b74077239ee
+
 Package: netstandard-targeting-pack-2.1-9.0
 Architecture: aarch64
 Installed-Size: 18480
@@ -1197,6 +1254,20 @@ Size: 11190944
 MD5sum: a0f14ce7288d2cdc97f2bd17e140e9e9
 SHA1: dd0623c5a4436f31eff8416b1d1e0022a8d7977e
 SHA256: f38630d06f32b95059e8335636ebd166975acf7c20501ff1dd091c6ce3c51835
+
+Package: oci-cli
+Architecture: aarch64
+Installed-Size: 68744
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.96.2-1
+Homepage: https://github.com/oracle/oci-cli
+Depends: python, python-pip, python-cryptography, python-crc32c
+Description: Command line interface for Oracle Cloud Infrastructure
+Filename: ./oci-cli_3.96.2-1_aarch64.deb
+Size: 2107636
+MD5sum: e4656068a1424564410028cfe2507972
+SHA1: 404c15989255315a4c42a36dec4447faaa4d1278
+SHA256: 024a85d345270193ecc4e1815038feda9bef0ea1955cfe9dcdad5ddaf9d9aeee
 
 Package: ollama-backend-vulkan
 Architecture: aarch64
@@ -1601,3 +1672,17 @@ Size: 13783548
 MD5sum: 4267d5ee2bc0da613dfb3c1a475e1580
 SHA1: d29008bea2856f8597b6265898c189900efee432
 SHA256: d5e9033c9d4eae650d9ab5cd6f3b3dc3d5c7fcf083b35708baba9628ffca0812
+
+Package: z3
+Architecture: aarch64
+Installed-Size: 54456
+Maintainer: @termux
+Version: 5.4.1-1
+Homepage: https://github.com/Z3Prover/z3
+Depends: libc++
+Description: Z3 is a theorem prover from Microsoft Research
+Filename: ./z3_5.4.1-1_aarch64.deb
+Size: 13781356
+MD5sum: 4a93130763677ec286bb91cc01bcc807
+SHA1: 2a94513c55c80914734b186bc76ba76fd46b9693
+SHA256: 4ac11cf31245c37a008fd94201bd2e3b5a4aef100e284e665fdd1a5db74aa23f
