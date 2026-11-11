@@ -1,3 +1,17 @@
+Package: appstream
+Architecture: aarch64
+Installed-Size: 2500
+Maintainer: @termux
+Version: 1.2.3-1
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Depends: curl, glib, libfyaml, libxml2, libxmlb, zstd
+Description: Provides a standard for creating app stores across distributions
+Filename: ./appstream_1.2.3-1_aarch64.deb
+Size: 366912
+MD5sum: e974f6cab63f2b96d30cd4cd481bd24d
+SHA1: 904df6a077e162e6492ba4470b3d2e14d757fd2e
+SHA256: 3e2ee001fcb9429f6687fceeb61052ca3ba907dfaf1723e30435d97fd70ca156
+
 Package: arturo
 Architecture: aarch64
 Installed-Size: 5388
@@ -877,10 +891,10 @@ Homepage: https://snowballstem.org/
 Depends: libstemmer (= 3.2.0-1)
 Description: Static libraries for libstemmer
 Filename: ./libstemmer-static_3.2.0-1_aarch64.deb
-Size: 133484
-MD5sum: 00e9ddf1132ba295e99af053cba5f7d8
-SHA1: fbf437e56ec5bce56853f63ac8b224849547cb6f
-SHA256: d425c8b3059eff29bd0d521e97782aa2321d0b32491f1612810a0b9ba0e3c27d
+Size: 133668
+MD5sum: 82e0427638fa86d26d78e2fa9baa7d88
+SHA1: 525584594d053a8e8441bc28bd414909250dac8c
+SHA256: 403222d33b19a40095d55d95e3ac40b1c57efb6ba065606f0c027a191398774e
 
 Package: libstemmer
 Architecture: aarch64
@@ -890,10 +904,10 @@ Version: 3.2.0-1
 Homepage: https://snowballstem.org/
 Description: Snowball compiler and stemming algorithms
 Filename: ./libstemmer_3.2.0-1_aarch64.deb
-Size: 108644
-MD5sum: c2ee6785f03b4b2b9c5d29f0f85aaac1
-SHA1: b3b14cdf94ab48ba9780a9a566c0c40fdd9812f2
-SHA256: 7d01dc4185e7db7f21c4c3407d381eaa32e8d2a927cf234f08f65c4942f85048
+Size: 108652
+MD5sum: 0a51a5c5e9ed0bc1e8374d33979cc6b9
+SHA1: 3ecaf1e81d806c0cf0b813424a161c217582adfb
+SHA256: 62f05eb45cf7c498ff60fdf4b24f641be420ab18d629a06025d4fbddcc743ee4
 
 Package: libxmlb
 Architecture: aarch64
@@ -904,10 +918,10 @@ Homepage: https://github.com/hughsie/libxmlb
 Depends: glib, liblzma, libstemmer, zstd
 Description: Library to help create and query binary XML blobs
 Filename: ./libxmlb_0.3.30-1_aarch64.deb
-Size: 91744
-MD5sum: 88ea01b7132dd5181564f6260f5491fc
-SHA1: 146c5c9348f2be50e39d3ee20b82cd722a09ca1b
-SHA256: 67efa08cf9af9dde2ac8b7c637b839ae6a2d0e3c0b1c04eb04fef4f4ee819ef4
+Size: 91832
+MD5sum: d620847cd0686a12c391c19074890c07
+SHA1: 39c80cac9fa0e88077db3d3dc471e15b2f0a0d6c
+SHA256: 14a2d45a20a11871d3317d5cbef1dc6262187d16d7ca3387dea57a2af4a6a4a1
 
 Package: luajit-static
 Architecture: aarch64
@@ -1206,10 +1220,10 @@ Version: 3.2.0-1
 Homepage: https://snowballstem.org/
 Description: A command-line tool which uses libstemmer
 Filename: ./stemwords_3.2.0-1_aarch64.deb
-Size: 107988
-MD5sum: a14bff043a99a4592f0e2275a6711f03
-SHA1: 6bef08009b8cdc78f940c598cc0e71503b16c47a
-SHA256: 47d1dafb5264260458f0caddb4e827f0908c186afbb334e02e2c6b035d099099
+Size: 108100
+MD5sum: c51a98415450b0febd56d3e97794f03c
+SHA1: 785e087e67d27bbaa463babf3ffe0b46033fdf75
+SHA256: a742e5ee828b20fddf3195877a0901d040bb67b5d565ccc12851ab5a7cee0dab
 
 Package: storj-uplink
 Architecture: aarch64
